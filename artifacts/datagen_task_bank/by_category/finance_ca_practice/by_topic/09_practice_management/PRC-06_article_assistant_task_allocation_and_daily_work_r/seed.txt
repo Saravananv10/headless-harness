@@ -1,0 +1,1 @@
+Create a Python script that parses daily work logs of article trainees, evaluates task completion rates, and generates allocation charts for upcoming deadlines.

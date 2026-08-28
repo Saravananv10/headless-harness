@@ -1,0 +1,1 @@
+Create a Python script that compiles account-wise audit procedures, maps assertions (Completeness, Existence, Accuracy), and outputs an interactive audit execution checklist.

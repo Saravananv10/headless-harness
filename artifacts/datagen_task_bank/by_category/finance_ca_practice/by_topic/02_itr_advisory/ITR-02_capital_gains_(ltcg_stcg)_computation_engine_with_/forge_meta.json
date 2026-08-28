@@ -1,0 +1,8 @@
+{
+  "task_id": "ITR-02",
+  "category": "itr_advisory",
+  "topic_folder": "02_itr_advisory",
+  "complexity": "hard",
+  "source": "prompt_forge.batch_generator",
+  "ui_surface": "static_html_cli"
+}

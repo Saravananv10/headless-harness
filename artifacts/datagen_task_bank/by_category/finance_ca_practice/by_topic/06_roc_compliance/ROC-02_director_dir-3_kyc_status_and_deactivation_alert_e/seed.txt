@@ -1,0 +1,1 @@
+Build a Python tool to validate Director Identification Numbers (DIN), verify annual DIR-3 KYC filing status, flag approaching deadlines, and alert management of potential DIN deactivation.

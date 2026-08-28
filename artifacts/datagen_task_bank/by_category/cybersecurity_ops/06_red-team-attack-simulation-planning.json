@@ -1,0 +1,17 @@
+{
+  "index": "06",
+  "id": "cyber_06_red-team-attack-simulation-planning",
+  "title": "Red Team Attack Simulation Planning",
+  "seed": "Create a Python tool that ingests an asset inventory and network topology, maps plausible attack paths using MITRE ATT&CK techniques, drafts a red-team engagement plan with scoped objectives and safety guardrails, sequences attack stages from initial access through impact, and generates a findings report template with detection gap analysis.",
+  "source": "cybersecurity_finance_pdf:1.6",
+  "category": "cybersecurity_ops",
+  "workdir": "task_cybersecurity_ops_06",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "analysis_reason",
+    "business_domain": "cybersecurity"
+  }
+}

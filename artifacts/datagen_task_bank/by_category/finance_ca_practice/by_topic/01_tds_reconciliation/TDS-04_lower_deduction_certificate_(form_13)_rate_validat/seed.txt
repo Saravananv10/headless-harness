@@ -1,0 +1,1 @@
+Create a Python script that ingests Form 13 lower/zero deduction certificates, validates certificate validity periods and thresholds against invoice dates, and flags over-deduction.

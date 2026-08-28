@@ -1,0 +1,21 @@
+{
+  "index": "092",
+  "id": "FOR-02",
+  "title": "Duplicate Invoice & Ghost Vendor Payment Identifier",
+  "seed": "Build a Python tool that scans accounts payable registers for duplicate invoice numbers, matching amounts across similar vendor names, and inactive vendor payouts.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "forensic_analytics",
+  "workdir": "task_finance_092",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "data_wrangling",
+    "business_domain": "finance_forensics",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

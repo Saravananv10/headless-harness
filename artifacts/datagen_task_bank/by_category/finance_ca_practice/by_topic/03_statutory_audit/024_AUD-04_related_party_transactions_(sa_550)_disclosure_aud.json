@@ -1,0 +1,21 @@
+{
+  "index": "024",
+  "id": "AUD-04",
+  "title": "Related Party Transactions (SA 550) Disclosure Auditor",
+  "seed": "Create a Python tool to cross-reference general ledger transactions against director and key management personnel (KMP) lists, flagging undisclosed related party deals.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "statutory_audit",
+  "workdir": "task_finance_024",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "data_wrangling",
+    "business_domain": "finance_audit",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

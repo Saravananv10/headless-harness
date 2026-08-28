@@ -1,0 +1,21 @@
+{
+  "index": "016",
+  "id": "ITR-06",
+  "title": "Foreign Assets & Income Disclosure Auditor (Schedule FA)",
+  "seed": "Create a Python tool to parse overseas bank statements, stock holdings, and foreign tax paid, generate Schedule FA disclosure tables for ITR-2/ITR-3, and calculate Section 90/91 DTAA relief.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "itr_advisory",
+  "workdir": "task_finance_016",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_tax",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "index": "055",
+  "id": "ROC-05",
+  "title": "Charge Registration & Satisfaction Timeline Tracker (Form CHG-1/4)",
+  "seed": "Create a Python tool to track bank loan sanction dates, calculate 30-day statutory windows for CHG-1 (creation) and CHG-4 (satisfaction), and compute late filing condonation fees.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "roc_compliance",
+  "workdir": "task_finance_055",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "cli_tool",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_compliance",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

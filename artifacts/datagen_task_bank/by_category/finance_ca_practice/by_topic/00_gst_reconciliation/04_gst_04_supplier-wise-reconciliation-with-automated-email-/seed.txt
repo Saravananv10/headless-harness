@@ -1,0 +1,1 @@
+Create a Python tool that reconciles purchase invoices against GSTR-2B returns, groups mismatches by supplier, and automatically generates email draft files (markdown) for each supplier with missing or mismatched invoices. Include supplier contact lookup from a master CSV and batch email draft generation.

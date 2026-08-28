@@ -1,0 +1,1 @@
+Create a Python tool to validate deductee PAN regex, identify invalid or inoperative PANs, and compute higher TDS deduction liability at 20% u/s 206AA.

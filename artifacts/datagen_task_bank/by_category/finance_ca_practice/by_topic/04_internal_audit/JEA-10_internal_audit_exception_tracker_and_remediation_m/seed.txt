@@ -1,0 +1,1 @@
+Create a Python tool that compiles audit findings into a structured remediation tracker, calculates target closure dates, and outputs an audit committee summary dashboard.

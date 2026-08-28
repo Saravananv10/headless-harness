@@ -1,0 +1,21 @@
+{
+  "index": "013",
+  "id": "ITR-03",
+  "title": "Section 80C/80D/80G Deduction Proof Audit Checker",
+  "seed": "Build a Python verification script that audits employee deduction proofs against statutory caps (80C 1.5L, 80D 25k/50k, 80G 50%/100%), flagging ineligible claims.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "itr_advisory",
+  "workdir": "task_finance_013",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "cli_tool",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_tax",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

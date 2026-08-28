@@ -1,0 +1,9 @@
+chakra:
+  root: harness/chakra
+  grpc:
+    host: localhost
+    port: 50051
+    service: AgentService
+    method: Chat
+  proto:
+    local_copy: client/proto/chakra.proto

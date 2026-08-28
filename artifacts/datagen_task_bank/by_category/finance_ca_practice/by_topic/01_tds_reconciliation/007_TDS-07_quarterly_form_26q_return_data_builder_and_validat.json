@@ -1,0 +1,21 @@
+{
+  "index": "007",
+  "id": "TDS-07",
+  "title": "Quarterly Form 26Q Return Data Builder & Validation Engine",
+  "seed": "Build a Python utility that aggregates quarterly TDS registers, structures Form 26Q filing tables, validates BSR codes and challan numbers, and outputs filing-ready JSON.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "tds_reconciliation",
+  "workdir": "task_finance_007",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "coding_implement",
+    "business_domain": "finance_tax",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

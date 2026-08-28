@@ -1,0 +1,1 @@
+Create a Python drafting tool that compiles financial hardship proofs and cooperation records, drafting Section 273A statutory penalty waiver petitions to the Principal Commissioner.

@@ -1,0 +1,21 @@
+{
+  "index": "018",
+  "id": "ITR-08",
+  "title": "Form 10IEA Tax Regime Opt-Out Filing Generator",
+  "seed": "Create a Python script that generates Form 10IEA opt-out/opt-in filing payloads for business income assessee choosing old tax regime, validating filing due dates.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "itr_advisory",
+  "workdir": "task_finance_018",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "coding_implement",
+    "task_family": "coding_implement",
+    "business_domain": "finance_tax",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

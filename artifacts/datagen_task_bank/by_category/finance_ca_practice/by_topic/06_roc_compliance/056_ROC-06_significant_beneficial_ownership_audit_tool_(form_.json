@@ -1,0 +1,21 @@
+{
+  "index": "056",
+  "id": "ROC-06",
+  "title": "Significant Beneficial Ownership Audit Tool (Form SBO-1/2)",
+  "seed": "Build a Python audit tool that parses shareholder registers, traces ultimate beneficial ownership (>10% interest/control), and identifies non-individual shareholders requiring SBO disclosures.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "roc_compliance",
+  "workdir": "task_finance_056",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_compliance",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "index": "070",
+  "id": "TAX-10",
+  "title": "Comprehensive HNI Global Income & DTAA Tax Advisory Generator",
+  "seed": "Create a Python engine that models dual-resident HNI tax profiles, applies DTAA tie-breaker rules and foreign tax credit (FTC) limits, and outputs a client tax advisory report.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "tax_advisory",
+  "workdir": "task_finance_070",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "analysis_report",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_advisory",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "index": "068",
+  "id": "TAX-08",
+  "title": "Charitable Trust 85% Income Application Calculator (Form 10B/10BB)",
+  "seed": "Create a Python tool for Section 11 trusts that calculates total income, checks 85% charitable application mandate, computes Form 10 accumulation, and models tax liability.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "tax_advisory",
+  "workdir": "task_finance_068",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_advisory",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

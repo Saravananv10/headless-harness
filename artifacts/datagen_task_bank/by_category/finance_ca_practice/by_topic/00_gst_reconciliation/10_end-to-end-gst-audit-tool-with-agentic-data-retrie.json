@@ -1,0 +1,20 @@
+{
+  "index": "10",
+  "id": "gst_10_end-to-end-gst-audit-tool-with-agentic-data-retrie",
+  "title": "End-to-end GST audit tool with agentic data retrieval hooks",
+  "seed": "Create a comprehensive Python GST audit tool that: (1) ingests ERP purchase/sales registers and GSTR-2B/1 returns, (2) matches and reconciles invoices, (3) classifies mismatches with configurable rules, (4) generates a reconciliation summary and exception list, (5) drafts client emails for missing documents, and (6) includes agentic hooks for data retrieval (file reading/ parsing) and spreadsheet computation (pandas pivots, aggregations). Output all reports to a structured output directory.",
+  "source": "original",
+  "category": "gst_reconciliation",
+  "workdir": "task_gst_reconciliation_10",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "coding_implement",
+    "business_domain": "gst_tax_compliance",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "index": "042",
+  "id": "BRS-02",
+  "title": "Stale Cheque (3+ Months) Identifier & Reversal Advisor",
+  "seed": "Create a Python tool that scans uncleared cheques in bank reconciliations, identifies items outstanding over 90 days, and drafts write-back adjustment journal entries.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "bank_recon",
+  "workdir": "task_finance_042",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "cli_tool",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_bookkeeping",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

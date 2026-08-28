@@ -1,0 +1,1 @@
+Create a Python tool that ingests an asset inventory and network topology, maps plausible attack paths using MITRE ATT&CK techniques, drafts a red-team engagement plan with scoped objectives and safety guardrails, sequences attack stages from initial access through impact, and generates a findings report template with detection gap analysis.

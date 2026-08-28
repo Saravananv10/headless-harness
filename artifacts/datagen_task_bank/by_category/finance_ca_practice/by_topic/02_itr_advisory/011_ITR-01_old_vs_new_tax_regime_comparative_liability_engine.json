@@ -1,0 +1,21 @@
+{
+  "index": "011",
+  "id": "ITR-01",
+  "title": "Old vs New Tax Regime Comparative Liability Engine",
+  "seed": "Build a Python calculator that ingests salary Form 16 and deduction proofs, computes tax liability under both Old (Section 115BAC) and New tax regimes, and outputs a recommendation memo.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "itr_advisory",
+  "workdir": "task_finance_011",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_tax",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

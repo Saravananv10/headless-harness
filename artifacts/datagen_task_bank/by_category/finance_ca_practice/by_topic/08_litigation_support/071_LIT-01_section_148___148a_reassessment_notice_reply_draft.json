@@ -1,0 +1,21 @@
+{
+  "index": "071",
+  "id": "LIT-01",
+  "title": "Section 148 / 148A Reassessment Notice Reply Drafter",
+  "seed": "Create a Python tool that ingests assessment orders and show-cause notices, summarizes key issues, drafts legal replies with section citations, and tracks statutory deadlines.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "litigation_support",
+  "workdir": "task_finance_071",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_litigation",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

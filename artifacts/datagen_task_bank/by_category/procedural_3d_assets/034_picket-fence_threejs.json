@@ -1,0 +1,19 @@
+{
+  "index": "034",
+  "id": "3d_034_picket-fence_threejs",
+  "title": "Procedural picket-fence section (Three.js (Node.js))",
+  "seed": "Build a script from scratch in Three.js (Node.js) that procedurally generates: Build a repeating fence section: two horizontal rail beams connecting a row of evenly spaced vertical picket boards with pointed (pyramid-capped) tops. Picket count, spacing, picket height/width, and rail height must be CLI-configurable. Save to glb with deterministic seeding, CLI parameterization, and an independent post-save validation step.",
+  "source": "original",
+  "category": "procedural_3d_assets",
+  "workdir": "task_procedural_3d_assets_034",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "javascript",
+    "artifact_type": "3d_asset_generator",
+    "task_family": "coding_implement",
+    "business_domain": "graphics_tooling",
+    "modality": "3d_geometry",
+    "verification_mode": "runtime_pass"
+  }
+}

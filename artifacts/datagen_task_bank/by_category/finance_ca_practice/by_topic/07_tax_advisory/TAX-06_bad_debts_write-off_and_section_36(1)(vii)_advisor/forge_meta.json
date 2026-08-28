@@ -1,0 +1,8 @@
+{
+  "task_id": "TAX-06",
+  "category": "tax_advisory",
+  "topic_folder": "07_tax_advisory",
+  "complexity": "medium",
+  "source": "prompt_forge.batch_generator",
+  "ui_surface": "static_html_cli"
+}

@@ -1,0 +1,21 @@
+{
+  "index": "028",
+  "id": "AUD-08",
+  "title": "External Confirmation (SA 505) Balance Dispatch & Tracker",
+  "seed": "Create a Python tool that selects debtor/creditor samples based on balance size and turnover, generates balance confirmation request letters, and tracks response status.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "statutory_audit",
+  "workdir": "task_finance_028",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "cli_tool",
+    "task_family": "coding_implement",
+    "business_domain": "finance_audit",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

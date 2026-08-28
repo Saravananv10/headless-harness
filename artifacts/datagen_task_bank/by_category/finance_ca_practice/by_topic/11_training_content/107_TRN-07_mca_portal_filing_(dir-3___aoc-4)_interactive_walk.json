@@ -1,0 +1,21 @@
+{
+  "index": "107",
+  "id": "TRN-07",
+  "title": "MCA Portal Filing (DIR-3 / AOC-4) Interactive Walkthrough Generator",
+  "seed": "Build a Python documentation generator that produces step-by-step visual guides and troubleshooting checklists for common MCA portal filing errors.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "training_content",
+  "workdir": "task_finance_107",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "analysis_report",
+    "task_family": "coding_implement",
+    "business_domain": "finance_training",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

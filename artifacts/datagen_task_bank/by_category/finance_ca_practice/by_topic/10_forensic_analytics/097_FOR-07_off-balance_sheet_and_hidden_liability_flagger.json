@@ -1,0 +1,21 @@
+{
+  "index": "097",
+  "id": "FOR-07",
+  "title": "Off-Balance Sheet & Hidden Liability Flagger",
+  "seed": "Create a Python tool to scan journal entries and contract logs for unrecorded corporate guarantees, letter of comfort liabilities, and off-balance sheet commitments.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "forensic_analytics",
+  "workdir": "task_finance_097",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "analysis_report",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_forensics",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

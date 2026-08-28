@@ -1,0 +1,21 @@
+{
+  "index": "034",
+  "id": "JEA-04",
+  "title": "Single-User High-Volume Segregation of Duties Audit",
+  "seed": "Create a Python script that analyzes user posting logs, flags users who both create and approve high-value manual journal entries, and outputs an SoD violation report.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "internal_audit",
+  "workdir": "task_finance_034",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "cli_tool",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_audit",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

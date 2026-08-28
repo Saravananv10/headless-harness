@@ -1,0 +1,1 @@
+Create a Python tool that matches Fixed Asset Register entries against Trial Balance asset accounts, recalculates Companies Act Schedule II depreciation, and flags discrepancies.

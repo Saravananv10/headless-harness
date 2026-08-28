@@ -1,0 +1,1 @@
+Build a Python tool to calculate FD interest accruals from bank deposit advice certificates, compare against Form 26AS interest income entries, and flag unrecorded income.

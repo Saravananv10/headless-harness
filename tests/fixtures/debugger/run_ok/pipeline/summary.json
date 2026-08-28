@@ -1,0 +1,11 @@
+{
+  "run_id": "run_ok",
+  "completed": true,
+  "termination_reason": "completion",
+  "lifecycle_snapshot": {
+    "implementation_complete_seen": true,
+    "plan_done": true,
+    "plan_agent_seen": true,
+    "verdict_fail_count": 0
+  }
+}

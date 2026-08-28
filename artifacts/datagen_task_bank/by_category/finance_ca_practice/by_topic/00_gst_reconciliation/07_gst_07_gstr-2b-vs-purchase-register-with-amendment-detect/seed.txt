@@ -1,0 +1,1 @@
+Build a Python reconciliation tool that not only matches invoices between GSTR-2B and ERP purchase register but also detects amendments (corrected invoices in subsequent periods), tracks original vs amended values, and flags invoices requiring ITC reversal. Output an amendment tracking report.

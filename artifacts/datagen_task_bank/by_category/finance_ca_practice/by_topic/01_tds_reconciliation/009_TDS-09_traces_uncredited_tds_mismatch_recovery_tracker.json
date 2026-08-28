@@ -1,0 +1,21 @@
+{
+  "index": "009",
+  "id": "TDS-09",
+  "title": "TRACES Uncredited TDS Mismatch Recovery Tracker",
+  "seed": "Build a Python script that compares TRACES mismatch justification reports against books, categorizes mismatch reasons, and generates deductor correction request letters.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "tds_reconciliation",
+  "workdir": "task_finance_009",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "cli_tool",
+    "task_family": "data_wrangling",
+    "business_domain": "finance_tax",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

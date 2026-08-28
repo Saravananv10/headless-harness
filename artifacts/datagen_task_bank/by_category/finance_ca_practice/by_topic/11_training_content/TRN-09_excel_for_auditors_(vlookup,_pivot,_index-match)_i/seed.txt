@@ -1,0 +1,1 @@
+Build a Python script that generates Excel audit dataset challenges requiring trainees to apply formulas and pivot tables to discover deliberate data errors.

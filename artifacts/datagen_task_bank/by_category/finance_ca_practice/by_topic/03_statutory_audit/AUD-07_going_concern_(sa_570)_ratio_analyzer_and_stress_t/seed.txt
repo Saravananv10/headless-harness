@@ -1,0 +1,1 @@
+Build a Python tool to calculate liquidity ratios (Current, Quick, Debt-Service Coverage), test cash runway under negative scenarios, and generate SA 570 going concern assessment memo.

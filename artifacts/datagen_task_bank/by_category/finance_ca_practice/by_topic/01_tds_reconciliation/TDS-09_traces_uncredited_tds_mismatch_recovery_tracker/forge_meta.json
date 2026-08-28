@@ -1,0 +1,8 @@
+{
+  "task_id": "TDS-09",
+  "category": "tds_reconciliation",
+  "topic_folder": "01_tds_reconciliation",
+  "complexity": "medium",
+  "source": "prompt_forge.batch_generator",
+  "ui_surface": "static_html_cli"
+}

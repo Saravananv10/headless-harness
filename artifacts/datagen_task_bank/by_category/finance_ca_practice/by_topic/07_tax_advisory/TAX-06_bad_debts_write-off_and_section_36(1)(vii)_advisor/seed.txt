@@ -1,0 +1,1 @@
+Create a Python script to audit aged receivables, check Section 36(2) previous income inclusion compliance, and draft bad debt write-off advisory notes.

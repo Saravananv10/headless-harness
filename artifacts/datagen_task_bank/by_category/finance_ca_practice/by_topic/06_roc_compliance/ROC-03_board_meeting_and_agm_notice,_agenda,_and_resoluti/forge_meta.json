@@ -1,0 +1,8 @@
+{
+  "task_id": "ROC-03",
+  "category": "roc_compliance",
+  "topic_folder": "06_roc_compliance",
+  "complexity": "medium",
+  "source": "prompt_forge.batch_generator",
+  "ui_surface": "static_html_cli"
+}

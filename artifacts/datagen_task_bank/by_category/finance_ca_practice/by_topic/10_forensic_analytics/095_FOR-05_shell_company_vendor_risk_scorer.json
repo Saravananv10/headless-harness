@@ -1,0 +1,21 @@
+{
+  "index": "095",
+  "id": "FOR-05",
+  "title": "Shell Company Vendor Risk Scorer",
+  "seed": "Create a Python risk scoring tool that evaluates vendor master profiles against shell company indicators (recent registration, high payment volume, missing tax registration).",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "forensic_analytics",
+  "workdir": "task_finance_095",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_forensics",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "index": "036",
+  "id": "JEA-06",
+  "title": "Suspicious Narration NLP Pattern Matcher",
+  "seed": "Create a Python NLP text processing tool that scans journal entry narration strings for suspicious keywords ('temp', 'plug', 'adjust', 'per director', 'error fix'), outputting an exception list.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "internal_audit",
+  "workdir": "task_finance_036",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "cli_tool",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_audit",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "index": "019",
+  "id": "ITR-09",
+  "title": "Loss Set-Off & Carry-Forward Matrix Builder (Schedule CFL)",
+  "seed": "Build a Python engine that applies intra-head and inter-head loss set-off rules, tracks 8-year carry-forward limits for business/capital losses, and generates Schedule CFL.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "itr_advisory",
+  "workdir": "task_finance_019",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "data_wrangling",
+    "business_domain": "finance_tax",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

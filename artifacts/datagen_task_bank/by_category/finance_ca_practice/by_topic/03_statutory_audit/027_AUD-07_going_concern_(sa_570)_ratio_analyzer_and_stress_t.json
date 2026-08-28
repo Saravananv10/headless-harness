@@ -1,0 +1,21 @@
+{
+  "index": "027",
+  "id": "AUD-07",
+  "title": "Going Concern (SA 570) Ratio Analyzer & Stress Tester",
+  "seed": "Build a Python tool to calculate liquidity ratios (Current, Quick, Debt-Service Coverage), test cash runway under negative scenarios, and generate SA 570 going concern assessment memo.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "statutory_audit",
+  "workdir": "task_finance_027",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "analysis_report",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_audit",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

@@ -1,0 +1,1 @@
+Build a Python tool to process recurring expense contracts, build monthly prepaid amortization schedules, calculate accrued expenses, and post month-end close journals.

@@ -1,0 +1,1 @@
+Create a Python tool to track bank loan sanction dates, calculate 30-day statutory windows for CHG-1 (creation) and CHG-4 (satisfaction), and compute late filing condonation fees.

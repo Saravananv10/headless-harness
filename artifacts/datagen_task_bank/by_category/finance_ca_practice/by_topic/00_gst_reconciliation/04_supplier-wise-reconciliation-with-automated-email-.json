@@ -1,0 +1,17 @@
+{
+  "index": "04",
+  "id": "gst_04_supplier-wise-reconciliation-with-automated-email-",
+  "title": "Supplier-wise reconciliation with automated email drafts",
+  "seed": "Create a Python tool that reconciles purchase invoices against GSTR-2B returns, groups mismatches by supplier, and automatically generates email draft files (markdown) for each supplier with missing or mismatched invoices. Include supplier contact lookup from a master CSV and batch email draft generation.",
+  "source": "original",
+  "category": "gst_reconciliation",
+  "workdir": "task_gst_reconciliation_04",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "data_wrangling",
+    "business_domain": "gst_tax_compliance"
+  }
+}

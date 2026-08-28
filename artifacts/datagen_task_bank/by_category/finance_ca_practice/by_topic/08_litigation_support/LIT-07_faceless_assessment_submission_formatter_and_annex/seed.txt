@@ -1,0 +1,1 @@
+Create a Python script that compiles written submissions for Faceless Assessment portals, formats hyperlinked document indexes, and verifies file attachment size limits.

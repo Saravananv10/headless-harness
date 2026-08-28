@@ -1,0 +1,21 @@
+{
+  "index": "080",
+  "id": "LIT-10",
+  "title": "Litigation Risk Exposure & Contingent Liability Quantifier",
+  "seed": "Build a Python tool that aggregates pending tax litigation cases across forums (CIT(A), ITAT, High Court), computes total financial exposure, and calculates AS 29 contingent liability disclosures.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "litigation_support",
+  "workdir": "task_finance_080",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "spreadsheet_workbook",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_litigation",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "index": "066",
+  "id": "TAX-06",
+  "title": "Bad Debts Write-off & Section 36(1)(vii) Advisory Tool",
+  "seed": "Create a Python script to audit aged receivables, check Section 36(2) previous income inclusion compliance, and draft bad debt write-off advisory notes.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "tax_advisory",
+  "workdir": "task_finance_066",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "analysis_report",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_advisory",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

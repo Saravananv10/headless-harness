@@ -1,0 +1,21 @@
+{
+  "index": "088",
+  "id": "PRC-08",
+  "title": "ICAI Peer Review Workpaper Quality Audit Checker",
+  "seed": "Create a Python tool that audits completed audit files against ICAI Peer Review Board guidelines, verifying presence of mandatory working papers and sign-offs.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "practice_management",
+  "workdir": "task_finance_088",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "analysis_report",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_practice_mgmt",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

@@ -1,0 +1,1 @@
+Create a Python risk scoring tool that evaluates vendor master profiles against shell company indicators (recent registration, high payment volume, missing tax registration).

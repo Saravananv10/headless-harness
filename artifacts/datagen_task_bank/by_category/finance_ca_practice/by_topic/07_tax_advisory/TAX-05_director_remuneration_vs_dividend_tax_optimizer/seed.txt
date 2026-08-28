@@ -1,0 +1,1 @@
+Build a Python model to determine the optimal split between Director Salary (deductible for co., taxable for individual) and Dividend Distribution to minimize total tax payout.

@@ -1,0 +1,1 @@
+Build a Python tool that summarizes tax provisions, analyzes multiple structuring options, computes tax at 22% (115BAA) vs 30% (Old) with MAT credit, and drafts an advisory memo.

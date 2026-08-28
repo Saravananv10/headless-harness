@@ -1,0 +1,1 @@
+Create a Python script that compares invoice dates against shipping/service fulfillment dates and journal posting dates, flagging revenue recognized prematurely.

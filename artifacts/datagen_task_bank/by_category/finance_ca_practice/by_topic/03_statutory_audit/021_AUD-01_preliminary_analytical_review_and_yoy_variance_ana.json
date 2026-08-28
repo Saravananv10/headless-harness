@@ -1,0 +1,21 @@
+{
+  "index": "021",
+  "id": "AUD-01",
+  "title": "Preliminary Analytical Review & YoY Variance Analyzer",
+  "seed": "Build a Python tool that ingests current and prior year trial balance CSVs, calculates percentage and absolute variances, and highlights accounts exceeding risk thresholds.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "statutory_audit",
+  "workdir": "task_finance_021",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_audit",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

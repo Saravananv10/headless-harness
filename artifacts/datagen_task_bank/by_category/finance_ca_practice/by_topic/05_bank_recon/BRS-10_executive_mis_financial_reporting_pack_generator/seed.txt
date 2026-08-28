@@ -1,0 +1,1 @@
+Create a Python script using openpyxl that compiles monthly Trial Balance, P&L, Balance Sheet, and BRS into a formatted MIS Excel workbook with budget variance charts.

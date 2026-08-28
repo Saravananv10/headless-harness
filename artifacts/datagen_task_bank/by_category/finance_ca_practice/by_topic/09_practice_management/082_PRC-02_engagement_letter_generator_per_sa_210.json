@@ -1,0 +1,21 @@
+{
+  "index": "082",
+  "id": "PRC-02",
+  "title": "Engagement Letter Generator per SA 210",
+  "seed": "Create a Python drafting tool that ingests client entity details and service scope, generating customized Statutory Audit engagement letters compliant with SA 210.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "practice_management",
+  "workdir": "task_finance_082",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "analysis_report",
+    "task_family": "coding_implement",
+    "business_domain": "finance_practice_mgmt",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

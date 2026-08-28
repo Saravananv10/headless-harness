@@ -1,0 +1,21 @@
+{
+  "index": "039",
+  "id": "JEA-09",
+  "title": "Monetary Unit Sampling (MUS) Audit Sample Selector",
+  "seed": "Build a Python statistical sampling engine that performs Monetary Unit Sampling on general ledger populations, selecting high-value and random items for substantive testing.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "internal_audit",
+  "workdir": "task_finance_039",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "cli_tool",
+    "task_family": "coding_implement",
+    "business_domain": "finance_audit",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

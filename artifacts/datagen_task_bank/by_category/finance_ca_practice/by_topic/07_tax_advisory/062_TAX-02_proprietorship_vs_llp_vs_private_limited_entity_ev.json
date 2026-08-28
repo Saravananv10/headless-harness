@@ -1,0 +1,21 @@
+{
+  "index": "062",
+  "id": "TAX-02",
+  "title": "Proprietorship vs LLP vs Private Limited Entity Evaluator",
+  "seed": "Create a Python advisory tool that models net post-tax cash flows for business founders under Proprietorship, LLP, and Pvt Ltd entity structures across income slabs.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "tax_advisory",
+  "workdir": "task_finance_062",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "analysis_report",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_advisory",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

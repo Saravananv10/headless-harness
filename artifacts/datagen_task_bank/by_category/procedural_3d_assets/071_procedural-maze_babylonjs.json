@@ -1,0 +1,19 @@
+{
+  "index": "071",
+  "id": "3d_071_procedural-maze_babylonjs",
+  "title": "Procedural 2.5D maze block (Babylon.js (Node.js, headless NullEngine))",
+  "seed": "Build a script from scratch in Babylon.js (Node.js, headless NullEngine) that procedurally generates: Generate a maze as wall box-segments arranged on a grid via a seeded randomized maze-generation algorithm (e.g. randomized depth-first backtracker), sitting on a flat rectangular base plate. Grid width/height (in cells) and wall height/thickness must be CLI-configurable; the generated maze must be a single connected solvable path from one corner to the opposite corner -- verify connectivity programmatically before export. Save to glb with deterministic seeding, CLI parameterization, and an independent post-save validation step.",
+  "source": "original",
+  "category": "procedural_3d_assets",
+  "workdir": "task_procedural_3d_assets_071",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "javascript",
+    "artifact_type": "3d_asset_generator",
+    "task_family": "coding_implement",
+    "business_domain": "graphics_tooling",
+    "modality": "3d_geometry",
+    "verification_mode": "runtime_pass"
+  }
+}

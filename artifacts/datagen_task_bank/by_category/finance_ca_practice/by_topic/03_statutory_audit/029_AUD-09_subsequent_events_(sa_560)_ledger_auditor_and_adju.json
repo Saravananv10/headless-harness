@@ -1,0 +1,21 @@
+{
+  "index": "029",
+  "id": "AUD-09",
+  "title": "Subsequent Events (SA 560) Ledger Auditor & Adjustment Tracker",
+  "seed": "Build a Python tool to scan general ledger transactions post-financial-year-end, flag adjusting vs non-adjusting events, and generate SA 560 audit workpapers.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "statutory_audit",
+  "workdir": "task_finance_029",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_audit",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

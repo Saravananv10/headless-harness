@@ -1,0 +1,19 @@
+{
+  "index": "079",
+  "id": "3d_079_parametric-vase_babylonjs",
+  "title": "Parametric lathed vase (Babylon.js (Node.js, headless NullEngine))",
+  "seed": "Build a script from scratch in Babylon.js (Node.js, headless NullEngine) that procedurally generates: Generate a vase by revolving a 2D profile curve (radius as a function of height -- narrower at the neck, wider at the belly) 360 degrees around the vertical axis. Profile control points (or function), height, and radial segment count must be CLI-configurable. Save to glb with deterministic seeding, CLI parameterization, and an independent post-save validation step.",
+  "source": "original",
+  "category": "procedural_3d_assets",
+  "workdir": "task_procedural_3d_assets_079",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "javascript",
+    "artifact_type": "3d_asset_generator",
+    "task_family": "coding_implement",
+    "business_domain": "graphics_tooling",
+    "modality": "3d_geometry",
+    "verification_mode": "runtime_pass"
+  }
+}

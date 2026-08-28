@@ -1,0 +1,1 @@
+Build a Python web app (Streamlit or Flask) that performs period-wise GST reconciliation across multiple months, shows trend charts for match rates, mismatch categories, ITC amounts, and supplier reliability scores over time. Include period comparison and drill-down views.

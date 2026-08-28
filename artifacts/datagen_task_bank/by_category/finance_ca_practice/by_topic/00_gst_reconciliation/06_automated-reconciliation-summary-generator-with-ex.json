@@ -1,0 +1,18 @@
+{
+  "index": "06",
+  "id": "gst_06_automated-reconciliation-summary-generator-with-ex",
+  "title": "Automated reconciliation summary generator with Excel export",
+  "seed": "Create a Python script using pandas and openpyxl that reads ERP and GSTR CSV files, performs full reconciliation, and produces a formatted Excel workbook with multiple sheets: Summary, Matched Invoices, Mismatches by Type, Supplier-wise Breakdown, and ITC Impact Analysis. Include conditional formatting for highlighting discrepancies.",
+  "source": "original",
+  "category": "gst_reconciliation",
+  "workdir": "task_gst_reconciliation_06",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "spreadsheet_workbook",
+    "task_family": "spreadsheet_excel",
+    "business_domain": "gst_tax_compliance",
+    "modality": "tabular_excel"
+  }
+}

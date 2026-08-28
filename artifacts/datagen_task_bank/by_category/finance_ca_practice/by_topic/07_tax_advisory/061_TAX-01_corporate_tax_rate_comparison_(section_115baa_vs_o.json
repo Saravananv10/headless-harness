@@ -1,0 +1,21 @@
+{
+  "index": "061",
+  "id": "TAX-01",
+  "title": "Corporate Tax Rate Comparison (Section 115BAA vs Old Regime)",
+  "seed": "Build a Python tool that summarizes tax provisions, analyzes multiple structuring options, computes tax at 22% (115BAA) vs 30% (Old) with MAT credit, and drafts an advisory memo.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "tax_advisory",
+  "workdir": "task_finance_061",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_advisory",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "index": "110",
+  "id": "TRN-10",
+  "title": "Article Trainee 30-Day Onboarding Curriculum & Evaluation Matrix",
+  "seed": "Create a Python tool that compiles a structured 30-day CA firm onboarding plan, tracks weekly assignment scores, and outputs a trainee readiness evaluation report.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "training_content",
+  "workdir": "task_finance_110",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "analysis_report",
+    "task_family": "coding_implement",
+    "business_domain": "finance_training",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

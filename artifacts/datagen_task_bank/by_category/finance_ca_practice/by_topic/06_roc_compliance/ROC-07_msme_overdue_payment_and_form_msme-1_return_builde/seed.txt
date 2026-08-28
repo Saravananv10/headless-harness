@@ -1,0 +1,1 @@
+Create a Python script that analyzes AP aging, flags payments to MSME vendors exceeding statutory 45-day terms, calculates Section 16 interest penalty, and builds Form MSME-1 data.

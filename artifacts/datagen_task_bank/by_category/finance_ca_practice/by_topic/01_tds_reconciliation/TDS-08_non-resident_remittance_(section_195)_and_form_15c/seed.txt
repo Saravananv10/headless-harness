@@ -1,0 +1,1 @@
+Create a Python tool to process foreign remittance transactions, verify DTAA tax rates, check Form 15CA/15CB filings, and calculate withholding tax exposure.

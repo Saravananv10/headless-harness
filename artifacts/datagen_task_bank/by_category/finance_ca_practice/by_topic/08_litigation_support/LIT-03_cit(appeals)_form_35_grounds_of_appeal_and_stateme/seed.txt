@@ -1,0 +1,1 @@
+Create a Python script that ingests assessment order additions, structures concise Grounds of Appeal and Statement of Facts, and builds draft Form 35 appeal documents.

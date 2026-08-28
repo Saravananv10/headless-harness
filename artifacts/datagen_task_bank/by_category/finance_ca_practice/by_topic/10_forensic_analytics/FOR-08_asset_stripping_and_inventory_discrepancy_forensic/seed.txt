@@ -1,0 +1,1 @@
+Build a Python forensic tool to reconcile physical stock audit counts against inventory ledgers, flagging unexplained stock shrinkage and unauthorized scrap sales.

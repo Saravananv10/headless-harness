@@ -1,0 +1,21 @@
+{
+  "index": "076",
+  "id": "LIT-06",
+  "title": "Case Precedent Judicial Citation Matcher & Issue Framing Tool",
+  "seed": "Build a Python tool that matches notice issue keywords against a local database of Supreme Court and High Court tax judgments, inserting relevant legal citations into reply drafts.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "litigation_support",
+  "workdir": "task_finance_076",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "cli_tool",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_litigation",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

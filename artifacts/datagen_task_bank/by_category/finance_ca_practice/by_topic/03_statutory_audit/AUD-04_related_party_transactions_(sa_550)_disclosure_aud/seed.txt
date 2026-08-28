@@ -1,0 +1,1 @@
+Create a Python tool to cross-reference general ledger transactions against director and key management personnel (KMP) lists, flagging undisclosed related party deals.

@@ -1,0 +1,5 @@
+{"seq": 1, "ts": "2026-07-17T10:00:01Z", "type": "agent_spawn", "tool_name": "Agent", "invocation_id": "v1", "arguments": {"subagent_type": "verification", "prompt": "verify"}}
+{"seq": 2, "ts": "2026-07-17T10:00:02Z", "type": "agent_completed", "invocation_id": "v1", "output": "Looks good.\nVERDICT: PASS\n"}
+{"seq": 3, "ts": "2026-07-17T10:00:03Z", "type": "verification_result", "verdict": "PASS", "invocation_id": "v1"}
+{"seq": 4, "ts": "2026-07-17T10:00:04Z", "type": "controller_decision", "decision": "resume", "kind": "reverify_after_rejected_pass", "reason": "Rejected PASS: missing RUNTIME_CHECK: PASS"}
+{"seq": 5, "ts": "2026-07-17T10:00:05Z", "type": "run_completed", "completed": false, "termination_reason": "max_turns"}

@@ -1,0 +1,17 @@
+{
+  "index": "03",
+  "id": "cyber_03_threat-intelligence-correlation-and-attribution",
+  "title": "Threat Intelligence Correlation & Attribution",
+  "seed": "Build a Python tool that ingests internal SIEM alerts and a threat intel feed, extracts and normalizes IOCs (IPs, hashes, domains), cross-references them against internal telemetry, clusters related incidents, maps to MITRE ATT&CK techniques, assigns confidence scores, and drafts a threat intelligence brief.",
+  "source": "cybersecurity_finance_pdf:1.3",
+  "category": "cybersecurity_ops",
+  "workdir": "task_cybersecurity_ops_03",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "analysis_reason",
+    "business_domain": "cybersecurity"
+  }
+}

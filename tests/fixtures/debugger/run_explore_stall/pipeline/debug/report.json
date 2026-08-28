@@ -1,0 +1,446 @@
+{
+  "run_id": "run_explore_stall",
+  "pipeline_dir": "/Users/anuragupperwal/Documents/Coding/Internship_Soket/temp_harness_h/headless_harness_datagen/tests/fixtures/debugger/run_explore_stall/pipeline",
+  "timeline": [
+    {
+      "seq": 1,
+      "ts": "2026-07-17T10:00:01Z",
+      "type": "agent_spawn",
+      "summary": "spawn Explore"
+    },
+    {
+      "seq": 2,
+      "ts": "2026-07-17T10:00:02Z",
+      "type": "tool_request",
+      "summary": "tool Bash"
+    },
+    {
+      "seq": 3,
+      "ts": "2026-07-17T10:00:03Z",
+      "type": "tool_approval",
+      "summary": "tool_approval"
+    },
+    {
+      "seq": 4,
+      "ts": "2026-07-17T10:00:04Z",
+      "type": "tool_request",
+      "summary": "tool Bash"
+    },
+    {
+      "seq": 5,
+      "ts": "2026-07-17T10:00:05Z",
+      "type": "tool_approval",
+      "summary": "tool_approval"
+    },
+    {
+      "seq": 6,
+      "ts": "2026-07-17T10:00:06Z",
+      "type": "tool_request",
+      "summary": "tool Bash"
+    },
+    {
+      "seq": 7,
+      "ts": "2026-07-17T10:00:07Z",
+      "type": "tool_approval",
+      "summary": "tool_approval"
+    },
+    {
+      "seq": 8,
+      "ts": "2026-07-17T10:00:08Z",
+      "type": "tool_request",
+      "summary": "tool Bash"
+    },
+    {
+      "seq": 9,
+      "ts": "2026-07-17T10:00:09Z",
+      "type": "tool_approval",
+      "summary": "tool_approval"
+    },
+    {
+      "seq": 10,
+      "ts": "2026-07-17T10:00:10Z",
+      "type": "tool_request",
+      "summary": "tool Bash"
+    },
+    {
+      "seq": 11,
+      "ts": "2026-07-17T10:00:11Z",
+      "type": "tool_approval",
+      "summary": "tool_approval"
+    },
+    {
+      "seq": 12,
+      "ts": "2026-07-17T10:00:12Z",
+      "type": "tool_request",
+      "summary": "tool Bash"
+    },
+    {
+      "seq": 13,
+      "ts": "2026-07-17T10:00:13Z",
+      "type": "tool_approval",
+      "summary": "tool_approval"
+    },
+    {
+      "seq": 14,
+      "ts": "2026-07-17T10:00:14Z",
+      "type": "tool_request",
+      "summary": "tool Bash"
+    },
+    {
+      "seq": 15,
+      "ts": "2026-07-17T10:00:15Z",
+      "type": "tool_approval",
+      "summary": "tool_approval"
+    },
+    {
+      "seq": 16,
+      "ts": "2026-07-17T10:00:16Z",
+      "type": "tool_request",
+      "summary": "tool Bash"
+    },
+    {
+      "seq": 17,
+      "ts": "2026-07-17T10:00:17Z",
+      "type": "tool_approval",
+      "summary": "tool_approval"
+    },
+    {
+      "seq": 18,
+      "ts": "2026-07-17T10:00:18Z",
+      "type": "controller_decision",
+      "summary": "resume:neutral No lifecycle gap detected \u2014 soft continue"
+    },
+    {
+      "seq": 19,
+      "ts": "2026-07-17T10:00:19Z",
+      "type": "controller_decision",
+      "summary": "resume:neutral No lifecycle gap detected \u2014 soft continue"
+    },
+    {
+      "seq": 20,
+      "ts": "2026-07-17T10:00:20Z",
+      "type": "controller_decision",
+      "summary": "resume:neutral No lifecycle gap detected \u2014 soft continue"
+    },
+    {
+      "seq": 21,
+      "ts": "2026-07-17T10:00:21Z",
+      "type": "controller_decision",
+      "summary": "resume:neutral No lifecycle gap detected \u2014 soft continue"
+    },
+    {
+      "seq": 22,
+      "ts": "2026-07-17T10:00:22Z",
+      "type": "controller_decision",
+      "summary": "resume:neutral No lifecycle gap detected \u2014 soft continue"
+    },
+    {
+      "seq": 23,
+      "ts": "2026-07-17T10:00:23Z",
+      "type": "controller_decision",
+      "summary": "resume:neutral No lifecycle gap detected \u2014 soft continue"
+    },
+    {
+      "seq": 24,
+      "ts": "2026-07-17T10:00:24Z",
+      "type": "controller_decision",
+      "summary": "terminate: max_turns"
+    },
+    {
+      "seq": 25,
+      "ts": "2026-07-17T10:00:25Z",
+      "type": "run_completed",
+      "summary": "done completed=False reason=max_turns"
+    }
+  ],
+  "agents": [
+    {
+      "seq": 1,
+      "invocation_id": "e1",
+      "subagent_type": "Explore",
+      "event": "spawn",
+      "preview": "Explore repository structure"
+    }
+  ],
+  "tool_counts": {
+    "Agent": 1,
+    "Bash": 8
+  },
+  "bash_commands": [
+    "ls /tmp/outside",
+    "ls /tmp/outside",
+    "ls /tmp/outside",
+    "ls /tmp/outside",
+    "ls /tmp/outside",
+    "ls /tmp/outside",
+    "ls /tmp/outside",
+    "ls /tmp/outside"
+  ],
+  "files_read": [],
+  "files_edited": [],
+  "token_events": [],
+  "compact_events": [],
+  "verification_history": [],
+  "repair_history": [],
+  "decisions": [
+    {
+      "seq": 3,
+      "ts": "2026-07-17T10:00:03Z",
+      "decision": "tool_approval",
+      "kind": "Bash",
+      "reason": "deny Bash outside repository or destructive pattern",
+      "source": "tool_approval"
+    },
+    {
+      "seq": 5,
+      "ts": "2026-07-17T10:00:05Z",
+      "decision": "tool_approval",
+      "kind": "Bash",
+      "reason": "deny Bash outside repository or destructive pattern",
+      "source": "tool_approval"
+    },
+    {
+      "seq": 7,
+      "ts": "2026-07-17T10:00:07Z",
+      "decision": "tool_approval",
+      "kind": "Bash",
+      "reason": "deny Bash outside repository or destructive pattern",
+      "source": "tool_approval"
+    },
+    {
+      "seq": 9,
+      "ts": "2026-07-17T10:00:09Z",
+      "decision": "tool_approval",
+      "kind": "Bash",
+      "reason": "deny Bash outside repository or destructive pattern",
+      "source": "tool_approval"
+    },
+    {
+      "seq": 11,
+      "ts": "2026-07-17T10:00:11Z",
+      "decision": "tool_approval",
+      "kind": "Bash",
+      "reason": "deny Bash outside repository or destructive pattern",
+      "source": "tool_approval"
+    },
+    {
+      "seq": 13,
+      "ts": "2026-07-17T10:00:13Z",
+      "decision": "tool_approval",
+      "kind": "Bash",
+      "reason": "deny Bash outside repository or destructive pattern",
+      "source": "tool_approval"
+    },
+    {
+      "seq": 15,
+      "ts": "2026-07-17T10:00:15Z",
+      "decision": "tool_approval",
+      "kind": "Bash",
+      "reason": "deny Bash outside repository or destructive pattern",
+      "source": "tool_approval"
+    },
+    {
+      "seq": 17,
+      "ts": "2026-07-17T10:00:17Z",
+      "decision": "tool_approval",
+      "kind": "Bash",
+      "reason": "deny Bash outside repository or destructive pattern",
+      "source": "tool_approval"
+    },
+    {
+      "seq": 18,
+      "ts": "2026-07-17T10:00:18Z",
+      "decision": "resume",
+      "kind": "neutral",
+      "reason": "No lifecycle gap detected \u2014 soft continue",
+      "source": "controller_decision"
+    },
+    {
+      "seq": 19,
+      "ts": "2026-07-17T10:00:19Z",
+      "decision": "resume",
+      "kind": "neutral",
+      "reason": "No lifecycle gap detected \u2014 soft continue",
+      "source": "controller_decision"
+    },
+    {
+      "seq": 20,
+      "ts": "2026-07-17T10:00:20Z",
+      "decision": "resume",
+      "kind": "neutral",
+      "reason": "No lifecycle gap detected \u2014 soft continue",
+      "source": "controller_decision"
+    },
+    {
+      "seq": 21,
+      "ts": "2026-07-17T10:00:21Z",
+      "decision": "resume",
+      "kind": "neutral",
+      "reason": "No lifecycle gap detected \u2014 soft continue",
+      "source": "controller_decision"
+    },
+    {
+      "seq": 22,
+      "ts": "2026-07-17T10:00:22Z",
+      "decision": "resume",
+      "kind": "neutral",
+      "reason": "No lifecycle gap detected \u2014 soft continue",
+      "source": "controller_decision"
+    },
+    {
+      "seq": 23,
+      "ts": "2026-07-17T10:00:23Z",
+      "decision": "resume",
+      "kind": "neutral",
+      "reason": "No lifecycle gap detected \u2014 soft continue",
+      "source": "controller_decision"
+    },
+    {
+      "seq": 24,
+      "ts": "2026-07-17T10:00:24Z",
+      "decision": "terminate",
+      "kind": null,
+      "reason": "max_turns",
+      "source": "controller_decision"
+    }
+  ],
+  "termination_reason": "max_turns",
+  "completed": false,
+  "contract_violations": [],
+  "failure": {
+    "primary": {
+      "category": "Controller",
+      "subcategory": "Exploration stall",
+      "message": "Stuck exploring without Plan/implement (5 resume cycles without forward progress)",
+      "evidence_seqs": [
+        19
+      ]
+    },
+    "secondary": [
+      {
+        "category": "Controller",
+        "subcategory": "Denial loop",
+        "message": "Repeated identical Bash denied 8 times (outside repository / destructive) (`ls /tmp/outside`)",
+        "evidence_seqs": [
+          3,
+          17
+        ]
+      },
+      {
+        "category": "Lifecycle",
+        "subcategory": "Phase never reached",
+        "message": "Pipeline phases never entered: implementation, verification, repair",
+        "evidence_seqs": []
+      },
+      {
+        "category": "Limits",
+        "subcategory": "max_turns",
+        "message": "Run stopped at max_turns (termination outcome)",
+        "evidence_seqs": []
+      }
+    ],
+    "confidence": "high",
+    "recommendations": [
+      "Spawn Plan then general-purpose; Explore alone will not advance the pipeline",
+      "Stop retrying denied tools; adjust commands to stay in-repo or change approach",
+      "Ensure Plan \u2192 general-purpose \u2192 verification sequencing begins after explore"
+    ],
+    "termination_outcome": "max_turns"
+  },
+  "metrics": {
+    "run_id": "run_explore_stall",
+    "runtime_seconds": 24.0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "agent_count": 1,
+    "agents_by_type": {
+      "Explore": 1
+    },
+    "tool_calls": 9,
+    "file_reads": 0,
+    "file_edits": 0,
+    "runtime_executions": 8,
+    "test_executions": 0,
+    "repair_iterations": 0,
+    "verification_failures": 0,
+    "duplicate_reads": 0,
+    "duplicate_edits": 0,
+    "final_status": "Failed",
+    "max_consecutive_resumes_without_progress": 5,
+    "forward_progress_stall": true,
+    "denied_tool_requests_by_reason": {
+      "deny Bash outside repository or destructive pattern": 8
+    },
+    "avg_seconds_between_progress_events": null,
+    "denial_summary_count": 1,
+    "top_denial_group_count": 8
+  },
+  "progress": {
+    "progress_events": [
+      {
+        "seq": 1,
+        "ts": "2026-07-17T10:00:01Z",
+        "kind": "new_agent_type",
+        "detail": "explore"
+      }
+    ],
+    "stalls": [
+      {
+        "start_seq": 19,
+        "end_seq": 25,
+        "cycles_without_progress": 5,
+        "last_progress_kind": "new_agent_type"
+      }
+    ],
+    "forward_progress_stall": true,
+    "max_consecutive_no_progress_cycles": 5,
+    "avg_seconds_between_progress_events": null,
+    "stall_cycles_threshold": 5
+  },
+  "phases": {
+    "phases": [
+      {
+        "phase": "plan",
+        "status": "never_reached",
+        "evidence": "No Plan spawn or plan.md / plan_done signal"
+      },
+      {
+        "phase": "implementation",
+        "status": "never_reached",
+        "evidence": "Implementation never entered (no general-purpose / markers)"
+      },
+      {
+        "phase": "verification",
+        "status": "never_reached",
+        "evidence": "Verification never entered (no verification agent / VERDICT)"
+      },
+      {
+        "phase": "repair",
+        "status": "never_reached",
+        "evidence": "Repair never entered"
+      }
+    ]
+  },
+  "denials": {
+    "groups": [
+      {
+        "tool_name": "Bash",
+        "reason": "deny Bash outside repository or destructive pattern",
+        "sample_target": "ls /tmp/outside",
+        "count": 8,
+        "first_seq": 3,
+        "last_seq": 17,
+        "message": "Repeated identical Bash denied 8 times (outside repository / destructive) (`ls /tmp/outside`)"
+      }
+    ],
+    "by_reason": {
+      "deny Bash outside repository or destructive pattern": 8
+    },
+    "total_denials": 8
+  },
+  "recommendations": [
+    "Spawn Plan then general-purpose; Explore alone will not advance the pipeline",
+    "Stop retrying denied tools; adjust commands to stay in-repo or change approach",
+    "Ensure Plan \u2192 general-purpose \u2192 verification sequencing begins after explore"
+  ]
+}

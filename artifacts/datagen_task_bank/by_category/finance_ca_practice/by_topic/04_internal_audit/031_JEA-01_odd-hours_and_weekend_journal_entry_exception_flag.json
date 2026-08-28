@@ -1,0 +1,21 @@
+{
+  "index": "031",
+  "id": "JEA-01",
+  "title": "Odd-Hours & Weekend Journal Entry Exception Flagger",
+  "seed": "Build a Python internal audit script to scan journal entry timestamps, flag entries posted between 10 PM and 5 AM or on weekends, and score user exposure risk.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "internal_audit",
+  "workdir": "task_finance_031",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_audit",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

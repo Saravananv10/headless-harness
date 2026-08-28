@@ -1,0 +1,1 @@
+Create a Python dashboard tool that combines bank balance data, expected customer collections, and scheduled vendor payments to forecast daily cash liquidity for 30 days.

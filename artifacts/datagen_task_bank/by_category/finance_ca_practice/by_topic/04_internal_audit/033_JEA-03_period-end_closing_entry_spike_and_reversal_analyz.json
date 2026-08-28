@@ -1,0 +1,21 @@
+{
+  "index": "033",
+  "id": "JEA-03",
+  "title": "Period-End Closing Entry Spike & Reversal Analyzer",
+  "seed": "Build a Python tool that analyzes journal entry volume and value distributions during the last 3 days of the month, flagging post-close manual adjustments and immediate reversals.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "internal_audit",
+  "workdir": "task_finance_033",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_audit",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

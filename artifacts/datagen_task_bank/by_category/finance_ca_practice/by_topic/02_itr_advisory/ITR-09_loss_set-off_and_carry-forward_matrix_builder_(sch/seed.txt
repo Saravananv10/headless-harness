@@ -1,0 +1,1 @@
+Build a Python engine that applies intra-head and inter-head loss set-off rules, tracks 8-year carry-forward limits for business/capital losses, and generates Schedule CFL.

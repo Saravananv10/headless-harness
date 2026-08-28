@@ -1,0 +1,1 @@
+Build a Python script that calculates Net Annual Value (NAV) for self-occupied and let-out properties, applies standard 30% deduction, and caps home loan interest deduction under Section 24(b).

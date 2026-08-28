@@ -1,0 +1,21 @@
+{
+  "index": "052",
+  "id": "ROC-02",
+  "title": "Director DIR-3 KYC Status & Deactivation Alert Engine",
+  "seed": "Build a Python tool to validate Director Identification Numbers (DIN), verify annual DIR-3 KYC filing status, flag approaching deadlines, and alert management of potential DIN deactivation.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "roc_compliance",
+  "workdir": "task_finance_052",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "cli_tool",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_compliance",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

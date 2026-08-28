@@ -1,0 +1,1 @@
+Build a Python reconciliation tool to compare buyer TDS u/s 194Q against seller TCS u/s 206C(1H) for transaction values exceeding INR 50 Lakhs and flag double deduction or missing tax.

@@ -1,0 +1,10 @@
+{
+  "run_id": "run_max_turns",
+  "completed": false,
+  "termination_reason": "max_turns",
+  "lifecycle_snapshot": {
+    "implementation_complete_seen": false,
+    "plan_done": false,
+    "verdict_fail_count": 0
+  }
+}

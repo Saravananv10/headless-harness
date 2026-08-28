@@ -1,0 +1,1 @@
+Create a Python script to match un-identified incoming electronic credits against open customer invoices using remitter name fuzzy matching and transaction amounts.

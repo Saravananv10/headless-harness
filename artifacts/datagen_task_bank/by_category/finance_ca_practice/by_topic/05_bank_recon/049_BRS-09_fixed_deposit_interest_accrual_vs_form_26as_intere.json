@@ -1,0 +1,21 @@
+{
+  "index": "049",
+  "id": "BRS-09",
+  "title": "Fixed Deposit Interest Accrual vs Form 26AS Interest Cross-Reconciler",
+  "seed": "Build a Python tool to calculate FD interest accruals from bank deposit advice certificates, compare against Form 26AS interest income entries, and flag unrecorded income.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "bank_recon",
+  "workdir": "task_finance_049",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_bookkeeping",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

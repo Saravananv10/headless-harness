@@ -1,0 +1,21 @@
+{
+  "index": "003",
+  "id": "TDS-03",
+  "title": "Form 16A Certificate Generator & Dispatch Automation",
+  "seed": "Build a Python tool to process TDS deductor registers, extract deductee-wise quarterly summaries, and draft Form 16A TDS certificates in markdown/PDF format.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "tds_reconciliation",
+  "workdir": "task_finance_003",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "coding_implement",
+    "business_domain": "finance_tax",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

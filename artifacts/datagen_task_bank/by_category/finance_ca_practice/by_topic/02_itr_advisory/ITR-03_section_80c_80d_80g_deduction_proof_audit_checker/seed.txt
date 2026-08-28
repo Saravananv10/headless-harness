@@ -1,0 +1,1 @@
+Build a Python verification script that audits employee deduction proofs against statutory caps (80C 1.5L, 80D 25k/50k, 80G 50%/100%), flagging ineligible claims.

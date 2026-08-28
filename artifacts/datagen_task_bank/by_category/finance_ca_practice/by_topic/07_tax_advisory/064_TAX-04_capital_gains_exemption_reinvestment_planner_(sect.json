@@ -1,0 +1,21 @@
+{
+  "index": "064",
+  "id": "TAX-04",
+  "title": "Capital Gains Exemption Reinvestment Planner (Section 54/54EC/54F)",
+  "seed": "Create a Python script that calculates capital gains tax savings achievable by investing in residential property (54/54F) or 54EC REC/NHAI bonds within statutory timelines.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "tax_advisory",
+  "workdir": "task_finance_064",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "cli_tool",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_advisory",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

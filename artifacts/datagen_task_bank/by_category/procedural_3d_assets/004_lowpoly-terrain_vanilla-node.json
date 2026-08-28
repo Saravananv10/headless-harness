@@ -1,0 +1,19 @@
+{
+  "index": "004",
+  "id": "3d_004_lowpoly-terrain_vanilla-node",
+  "title": "Low-poly procedural terrain (Vanilla Node.js (zero 3D dependencies, hand-written OBJ))",
+  "seed": "Build a script from scratch in Vanilla Node.js (zero 3D dependencies, hand-written OBJ) that procedurally generates: Generate a heightmapped terrain mesh from a grid of vertices, where each vertex's elevation comes from combining at least 3 octaves of value/Perlin-style noise (decreasing amplitude, increasing frequency per octave) rather than a single sine/cosine wave. Grid resolution and world-space scale must be CLI-configurable, and the noise must be seeded so terrain is exactly reproducible. Save to obj with deterministic seeding, CLI parameterization, and an independent post-save validation step.",
+  "source": "original",
+  "category": "procedural_3d_assets",
+  "workdir": "task_procedural_3d_assets_004",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "javascript",
+    "artifact_type": "3d_asset_generator",
+    "task_family": "coding_implement",
+    "business_domain": "graphics_tooling",
+    "modality": "3d_geometry",
+    "verification_mode": "runtime_pass"
+  }
+}

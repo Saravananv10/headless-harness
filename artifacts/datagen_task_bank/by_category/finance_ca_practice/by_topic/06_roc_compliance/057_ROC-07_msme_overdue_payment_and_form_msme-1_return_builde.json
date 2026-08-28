@@ -1,0 +1,21 @@
+{
+  "index": "057",
+  "id": "ROC-07",
+  "title": "MSME Overdue Payment & Form MSME-1 Return Builder",
+  "seed": "Create a Python script that analyzes AP aging, flags payments to MSME vendors exceeding statutory 45-day terms, calculates Section 16 interest penalty, and builds Form MSME-1 data.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "roc_compliance",
+  "workdir": "task_finance_057",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "data_wrangling",
+    "business_domain": "finance_compliance",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "task_id": "PRC-09",
+  "category": "practice_management",
+  "topic_folder": "09_practice_management",
+  "complexity": "medium",
+  "source": "prompt_forge.batch_generator",
+  "ui_surface": "static_html_cli"
+}

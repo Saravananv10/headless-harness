@@ -1,0 +1,1 @@
+Create a Python script that analyzes user posting logs, flags users who both create and approve high-value manual journal entries, and outputs an SoD violation report.

@@ -1,0 +1,21 @@
+{
+  "index": "004",
+  "id": "TDS-04",
+  "title": "Lower Deduction Certificate (Form 13) Rate Validator",
+  "seed": "Create a Python script that ingests Form 13 lower/zero deduction certificates, validates certificate validity periods and thresholds against invoice dates, and flags over-deduction.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "tds_reconciliation",
+  "workdir": "task_finance_004",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_tax",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

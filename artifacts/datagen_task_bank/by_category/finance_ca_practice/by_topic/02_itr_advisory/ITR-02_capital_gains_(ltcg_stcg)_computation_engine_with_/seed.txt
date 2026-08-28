@@ -1,0 +1,1 @@
+Create a Python tool to process equity and mutual fund trade logs, apply Section 112A grandfathering rules (FMV as of 31-Jan-2018), compute LTCG/STCG tax, and draft Schedule CG.

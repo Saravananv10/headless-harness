@@ -1,0 +1,1 @@
+Build a Python legal drafting tool to format ITAT appeal memos, prepare stay of demand applications demonstrating financial hardship, and draft stay petition affidavits.

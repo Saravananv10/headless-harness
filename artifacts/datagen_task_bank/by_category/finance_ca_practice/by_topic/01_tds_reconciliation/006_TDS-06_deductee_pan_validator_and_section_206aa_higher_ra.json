@@ -1,0 +1,21 @@
+{
+  "index": "006",
+  "id": "TDS-06",
+  "title": "Deductee PAN Validator & Section 206AA Higher Rate Audit",
+  "seed": "Create a Python tool to validate deductee PAN regex, identify invalid or inoperative PANs, and compute higher TDS deduction liability at 20% u/s 206AA.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "tds_reconciliation",
+  "workdir": "task_finance_006",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "cli_tool",
+    "task_family": "data_wrangling",
+    "business_domain": "finance_tax",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

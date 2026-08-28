@@ -1,0 +1,1 @@
+Build a Python tool to scan and index past firm audit reports, tax opinions, and working papers, allowing fast keyword search for new engagement teams.

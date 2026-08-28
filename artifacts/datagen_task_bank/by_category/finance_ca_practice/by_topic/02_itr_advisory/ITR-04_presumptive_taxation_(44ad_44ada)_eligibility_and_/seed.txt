@@ -1,0 +1,1 @@
+Create a Python tool to check gross turnover/receipts against Section 44AD (2 Cr / 3 Cr) and 44ADA (50L / 75L) limits, calculate minimum deemed profit (6%/8%/50%), and flag audit requirements.

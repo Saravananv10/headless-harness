@@ -1,0 +1,21 @@
+{
+  "index": "067",
+  "id": "TAX-07",
+  "title": "Export Incentive & Section 10AA SEZ Tax Benefit Planner",
+  "seed": "Build a Python tool to calculate Section 10AA tax deductions for SEZ units (100% first 5 yrs, 50% next 5 yrs), verifying export turnover ratios against total turnover.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "tax_advisory",
+  "workdir": "task_finance_067",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_advisory",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

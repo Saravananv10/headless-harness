@@ -1,0 +1,1 @@
+Build a Python tool that segregates automated sub-ledger postings from manual journal entries, computes manual entry ratio per account, and flags high-risk manual accounts.

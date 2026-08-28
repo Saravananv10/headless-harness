@@ -1,0 +1,8 @@
+{
+  "task_id": "AUD-06",
+  "category": "statutory_audit",
+  "topic_folder": "03_statutory_audit",
+  "complexity": "hard",
+  "source": "prompt_forge.batch_generator",
+  "ui_surface": "static_html_cli"
+}

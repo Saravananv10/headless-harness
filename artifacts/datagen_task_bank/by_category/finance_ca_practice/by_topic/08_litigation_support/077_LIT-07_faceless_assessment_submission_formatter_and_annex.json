@@ -1,0 +1,21 @@
+{
+  "index": "077",
+  "id": "LIT-07",
+  "title": "Faceless Assessment Submission Formatter & Annexure Indexer",
+  "seed": "Create a Python script that compiles written submissions for Faceless Assessment portals, formats hyperlinked document indexes, and verifies file attachment size limits.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "litigation_support",
+  "workdir": "task_finance_077",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "cli_tool",
+    "task_family": "coding_implement",
+    "business_domain": "finance_litigation",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

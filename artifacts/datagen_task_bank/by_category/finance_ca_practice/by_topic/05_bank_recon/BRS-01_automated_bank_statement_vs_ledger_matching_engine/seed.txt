@@ -1,0 +1,1 @@
+Build a Python tool that matches bank statement transactions against general ledger entries by date, reference number, and amount, producing a Bank Reconciliation Statement (BRS).

@@ -1,0 +1,1 @@
+Build a Python tool that generates practice questions and case studies from engagement data, explains standards and sections in plain language, and creates quizzes.

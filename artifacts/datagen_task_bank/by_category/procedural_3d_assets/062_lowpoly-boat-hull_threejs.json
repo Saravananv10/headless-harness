@@ -1,0 +1,19 @@
+{
+  "index": "062",
+  "id": "3d_062_lowpoly-boat-hull_threejs",
+  "title": "Low-poly boat hull (lofted cross-sections) (Three.js (Node.js))",
+  "seed": "Build a script from scratch in Three.js (Node.js) that procedurally generates: Build a simple boat hull by defining 2D cross-section profile curves (narrow/pointed at bow and stern, wider amidships) at evenly spaced stations along the hull's length, then connecting corresponding points across adjacent stations to form a lofted hull surface, closed at bow and stern. Hull length, number of stations, and beam (max width) must be CLI-configurable. Save to glb with deterministic seeding, CLI parameterization, and an independent post-save validation step.",
+  "source": "original",
+  "category": "procedural_3d_assets",
+  "workdir": "task_procedural_3d_assets_062",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "javascript",
+    "artifact_type": "3d_asset_generator",
+    "task_family": "coding_implement",
+    "business_domain": "graphics_tooling",
+    "modality": "3d_geometry",
+    "verification_mode": "runtime_pass"
+  }
+}

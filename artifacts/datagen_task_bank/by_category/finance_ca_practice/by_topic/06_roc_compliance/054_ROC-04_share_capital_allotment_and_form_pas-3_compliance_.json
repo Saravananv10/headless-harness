@@ -1,0 +1,21 @@
+{
+  "index": "054",
+  "id": "ROC-04",
+  "title": "Share Capital Allotment & Form PAS-3 Compliance Auditor",
+  "seed": "Build a Python script to verify private placement share allotment records, check valuation report dates, calculate stamp duty payable, and audit Form PAS-3 filing compliance.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "roc_compliance",
+  "workdir": "task_finance_054",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "analysis_report",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_compliance",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

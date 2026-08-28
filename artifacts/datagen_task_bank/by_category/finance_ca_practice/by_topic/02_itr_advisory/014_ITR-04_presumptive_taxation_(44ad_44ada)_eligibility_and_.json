@@ -1,0 +1,21 @@
+{
+  "index": "014",
+  "id": "ITR-04",
+  "title": "Presumptive Taxation (44AD/44ADA) Eligibility & Profit Calculator",
+  "seed": "Create a Python tool to check gross turnover/receipts against Section 44AD (2 Cr / 3 Cr) and 44ADA (50L / 75L) limits, calculate minimum deemed profit (6%/8%/50%), and flag audit requirements.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "itr_advisory",
+  "workdir": "task_finance_014",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_tax",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

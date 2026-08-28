@@ -1,0 +1,17 @@
+{
+  "index": "02",
+  "id": "gst_02_sales-register-vs-gstr-1-reconciliation-dashboard",
+  "title": "Sales register vs GSTR-1 reconciliation dashboard",
+  "seed": "Create a Python Flask/FastAPI web dashboard that loads ERP sales register and GSTR-1 data from CSVs, performs invoice matching, shows match/mismatch statistics with charts, allows filtering by period and supplier, and exports results to Excel.",
+  "source": "original",
+  "category": "gst_reconciliation",
+  "workdir": "task_gst_reconciliation_02",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "web_fullstack",
+    "task_family": "coding_implement",
+    "business_domain": "gst_tax_compliance"
+  }
+}

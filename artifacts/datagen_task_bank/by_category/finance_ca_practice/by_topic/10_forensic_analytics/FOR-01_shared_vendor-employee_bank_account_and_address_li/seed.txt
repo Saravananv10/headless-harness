@@ -1,0 +1,1 @@
+Create a Python forensic analytics tool that cross-references vendor master data against employee payroll files, flagging shared bank accounts, addresses, or PANs.

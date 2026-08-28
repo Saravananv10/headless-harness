@@ -1,0 +1,21 @@
+{
+  "index": "023",
+  "id": "AUD-03",
+  "title": "SA 315 Risk Assessment Matrix & Control Risk Profiler",
+  "seed": "Build a Python risk profiler that evaluates financial statement risk areas (Revenue Cut-off, Valuation, Related Parties), scores inherent and control risk, and drafts a risk matrix.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "statutory_audit",
+  "workdir": "task_finance_023",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "analysis_report",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_audit",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

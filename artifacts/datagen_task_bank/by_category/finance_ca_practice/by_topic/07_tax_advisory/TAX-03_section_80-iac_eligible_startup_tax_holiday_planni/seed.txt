@@ -1,0 +1,1 @@
+Build a Python tool to check DPIIT recognition, turnover limits (100 Cr), and incorporation dates for Section 80-IAC eligibility, modeling optimal 3 consecutive tax exemption years.

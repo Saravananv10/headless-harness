@@ -1,0 +1,21 @@
+{
+  "index": "089",
+  "id": "PRC-09",
+  "title": "Sub-contractor & External Expert Consultant Fee Tracker",
+  "seed": "Build a Python tool to manage external valuer/advocate engagement agreements, track deliverable milestones, and audit consultant invoice disbursements.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "practice_management",
+  "workdir": "task_finance_089",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "cli_tool",
+    "task_family": "data_wrangling",
+    "business_domain": "finance_practice_mgmt",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

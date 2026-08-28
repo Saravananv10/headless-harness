@@ -1,0 +1,1 @@
+Build a Python tool to calculate Section 10AA tax deductions for SEZ units (100% first 5 yrs, 50% next 5 yrs), verifying export turnover ratios against total turnover.

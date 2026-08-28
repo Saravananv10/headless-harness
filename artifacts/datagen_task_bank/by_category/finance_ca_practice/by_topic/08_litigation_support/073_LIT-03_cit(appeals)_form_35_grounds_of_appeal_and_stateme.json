@@ -1,0 +1,21 @@
+{
+  "index": "073",
+  "id": "LIT-03",
+  "title": "CIT(Appeals) Form 35 Grounds of Appeal & Statement of Facts Drafter",
+  "seed": "Create a Python script that ingests assessment order additions, structures concise Grounds of Appeal and Statement of Facts, and builds draft Form 35 appeal documents.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "litigation_support",
+  "workdir": "task_finance_073",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "analysis_report",
+    "task_family": "coding_implement",
+    "business_domain": "finance_litigation",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

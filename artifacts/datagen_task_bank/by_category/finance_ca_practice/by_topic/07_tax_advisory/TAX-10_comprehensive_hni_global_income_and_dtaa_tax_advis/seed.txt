@@ -1,0 +1,1 @@
+Create a Python engine that models dual-resident HNI tax profiles, applies DTAA tie-breaker rules and foreign tax credit (FTC) limits, and outputs a client tax advisory report.

@@ -1,0 +1,17 @@
+{
+  "index": "08",
+  "id": "gst_08_bulk-supplier-gstin-validation-and-compliance-chec",
+  "title": "Bulk supplier GSTIN validation and compliance checker",
+  "seed": "Create a Python tool that reads a supplier master CSV, validates GSTIN format (15-character pattern with state code, PAN, entity, and check digit), cross-references against purchase register GSTINs, flags invalid/suspended suppliers, and generates a supplier compliance report with risk scores.",
+  "source": "original",
+  "category": "gst_reconciliation",
+  "workdir": "task_gst_reconciliation_08",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "cli_tool",
+    "task_family": "data_wrangling",
+    "business_domain": "gst_tax_compliance"
+  }
+}

@@ -1,0 +1,11 @@
+{"seq": 1, "ts": "2026-07-17T10:00:01Z", "type": "agent_spawn", "tool_name": "Agent", "invocation_id": "p1", "arguments": {"subagent_type": "Plan"}}
+{"seq": 2, "ts": "2026-07-17T10:00:02Z", "type": "agent_spawn", "tool_name": "Agent", "invocation_id": "g1", "arguments": {"subagent_type": "general-purpose"}}
+{"seq": 3, "ts": "2026-07-17T10:00:03Z", "type": "tool_request", "tool_name": "Read", "arguments": {"file_path": "/tmp/a.py"}}
+{"seq": 4, "ts": "2026-07-17T10:00:04Z", "type": "tool_request", "tool_name": "Read", "arguments": {"file_path": "/tmp/a.py"}}
+{"seq": 5, "ts": "2026-07-17T10:00:05Z", "type": "tool_request", "tool_name": "Edit", "arguments": {"file_path": "/tmp/a.py"}}
+{"seq": 6, "ts": "2026-07-17T10:00:06Z", "type": "token_usage", "prompt_tokens": 200, "completion_tokens": 80}
+{"seq": 7, "ts": "2026-07-17T10:00:07Z", "type": "agent_spawn", "tool_name": "Agent", "invocation_id": "v1", "arguments": {"subagent_type": "verification"}}
+{"seq": 8, "ts": "2026-07-17T10:00:08Z", "type": "agent_completed", "invocation_id": "v1", "output": "RUNTIME_CHECK: PASS\nVERDICT: PASS\nCommand run: pytest\n"}
+{"seq": 9, "ts": "2026-07-17T10:00:09Z", "type": "verification_result", "verdict": "PASS", "invocation_id": "v1"}
+{"seq": 10, "ts": "2026-07-17T10:00:10Z", "type": "controller_decision", "decision": "terminate", "reason": "completion", "completed": true}
+{"seq": 11, "ts": "2026-07-17T10:00:11Z", "type": "run_completed", "completed": true, "termination_reason": "completion"}

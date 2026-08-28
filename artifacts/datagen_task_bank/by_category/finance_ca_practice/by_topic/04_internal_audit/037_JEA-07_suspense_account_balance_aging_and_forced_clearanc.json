@@ -1,0 +1,21 @@
+{
+  "index": "037",
+  "id": "JEA-07",
+  "title": "Suspense Account Balance Aging & Forced Clearance Audit",
+  "seed": "Build a Python tool that tracks suspense and clearing account entries, calculates balance aging, and flags entries remaining uncleared past 30 days.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "internal_audit",
+  "workdir": "task_finance_037",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "data_wrangling",
+    "business_domain": "finance_audit",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

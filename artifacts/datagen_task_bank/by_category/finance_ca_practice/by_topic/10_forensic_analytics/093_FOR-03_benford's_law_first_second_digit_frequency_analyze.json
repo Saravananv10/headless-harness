@@ -1,0 +1,21 @@
+{
+  "index": "093",
+  "id": "FOR-03",
+  "title": "Benford's Law First/Second Digit Frequency Analyzer",
+  "seed": "Create a Python forensic script that applies Benford's Law digit distribution analysis to financial transaction populations, flagging anomalous digit frequencies.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "forensic_analytics",
+  "workdir": "task_finance_093",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "cli_tool",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_forensics",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

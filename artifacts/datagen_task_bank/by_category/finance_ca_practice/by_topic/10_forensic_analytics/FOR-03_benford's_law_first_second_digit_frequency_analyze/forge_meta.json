@@ -1,0 +1,8 @@
+{
+  "task_id": "FOR-03",
+  "category": "forensic_analytics",
+  "topic_folder": "10_forensic_analytics",
+  "complexity": "hard",
+  "source": "prompt_forge.batch_generator",
+  "ui_surface": "static_html_cli"
+}

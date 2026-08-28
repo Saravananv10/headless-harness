@@ -1,0 +1,1 @@
+Build a Python tool that cross-validates HSN codes and tax rates between ERP purchase register and GSTR-2B data, detects rate mismatches (e.g., 12% vs 18% for the same HSN), generates an exception report with recommended correct rates, and outputs a summary of tax impact per HSN category.

@@ -1,0 +1,34 @@
+[project]
+name = "headless-harness"
+version = "0.1.0"
+description = "Autonomous headless harness interface — Phase 1 Chakra backend client"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "grpcio>=1.60.0",
+    "grpcio-tools>=1.60.0",
+    "protobuf>=4.25.0",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[project.scripts]
+chakra-verify = "scripts.verify_chakra:main"
+chakra-connect = "scripts.test_connectivity:main"
+chakra-chat = "scripts.test_minimal_chat:main"
+chakra-session = "scripts.test_session:main"
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["adapter*", "client*", "interface*", "engine*", "controller*", "verification*", "prompt_forge*", "prompt_stats*", "scripts*", "datagen", "datagen.*"]
+
+[tool.setuptools.package-data]
+prompt_forge = ["templates/*.md"]

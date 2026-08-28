@@ -1,0 +1,1 @@
+Build a Python triage tool that ingests firewall logs, IDS alerts, and EDR events, compares traffic against a baseline profile, flags anomalous patterns and lateral-movement indicators, ranks alerts by severity and false-positive likelihood, and drafts an analyst-ready triage summary.

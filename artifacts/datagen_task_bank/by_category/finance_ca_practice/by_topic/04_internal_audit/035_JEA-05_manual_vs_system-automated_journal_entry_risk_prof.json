@@ -1,0 +1,21 @@
+{
+  "index": "035",
+  "id": "JEA-05",
+  "title": "Manual vs System-Automated Journal Entry Risk Profiler",
+  "seed": "Build a Python tool that segregates automated sub-ledger postings from manual journal entries, computes manual entry ratio per account, and flags high-risk manual accounts.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "internal_audit",
+  "workdir": "task_finance_035",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_audit",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

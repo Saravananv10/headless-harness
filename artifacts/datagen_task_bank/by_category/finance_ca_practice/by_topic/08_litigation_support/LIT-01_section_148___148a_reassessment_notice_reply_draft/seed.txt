@@ -1,0 +1,1 @@
+Create a Python tool that ingests assessment orders and show-cause notices, summarizes key issues, drafts legal replies with section citations, and tracks statutory deadlines.

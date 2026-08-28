@@ -1,0 +1,21 @@
+{
+  "index": "060",
+  "id": "ROC-10",
+  "title": "MCA Portal Additional Fee & Penalty Calculator Engine",
+  "seed": "Build a Python tool that computes additional statutory filing fees (INR 100/day for delayed AOC-4/MGT-7) based on actual vs due filing dates and outputs penalty exposure reports.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "roc_compliance",
+  "workdir": "task_finance_060",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "cli_tool",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_compliance",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

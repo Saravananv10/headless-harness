@@ -1,0 +1,21 @@
+{
+  "index": "026",
+  "id": "AUD-06",
+  "title": "Fixed Assets Register (FAR) vs Books Reconciliation & Depreciation Checker",
+  "seed": "Create a Python tool that matches Fixed Asset Register entries against Trial Balance asset accounts, recalculates Companies Act Schedule II depreciation, and flags discrepancies.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "statutory_audit",
+  "workdir": "task_finance_026",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "data_wrangling",
+    "business_domain": "finance_audit",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

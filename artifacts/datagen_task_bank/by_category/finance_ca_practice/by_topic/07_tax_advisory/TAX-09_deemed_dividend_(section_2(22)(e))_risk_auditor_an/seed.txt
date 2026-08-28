@@ -1,0 +1,1 @@
+Build a Python tool to scan shareholder loan accounts in closely-held companies, identify accumulated profits, quantify Section 2(22)(e) deemed dividend exposure, and draft restructuring advice.

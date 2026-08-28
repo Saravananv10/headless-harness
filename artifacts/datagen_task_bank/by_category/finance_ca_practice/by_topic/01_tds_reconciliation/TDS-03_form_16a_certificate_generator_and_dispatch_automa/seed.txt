@@ -1,0 +1,1 @@
+Build a Python tool to process TDS deductor registers, extract deductee-wise quarterly summaries, and draft Form 16A TDS certificates in markdown/PDF format.

@@ -1,0 +1,1 @@
+Build a Python tool that analyzes journal entry volume and value distributions during the last 3 days of the month, flagging post-close manual adjustments and immediate reversals.

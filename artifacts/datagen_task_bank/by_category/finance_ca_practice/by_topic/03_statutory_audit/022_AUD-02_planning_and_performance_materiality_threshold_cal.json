@@ -1,0 +1,21 @@
+{
+  "index": "022",
+  "id": "AUD-02",
+  "title": "Planning & Performance Materiality Threshold Calculator (SA 320)",
+  "seed": "Create a Python script that calculates Overall Materiality, Performance Materiality, and Trivial Thresholds using benchmark percentages (Revenue, Gross Profit, Total Assets).",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "statutory_audit",
+  "workdir": "task_finance_022",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "cli_tool",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_audit",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

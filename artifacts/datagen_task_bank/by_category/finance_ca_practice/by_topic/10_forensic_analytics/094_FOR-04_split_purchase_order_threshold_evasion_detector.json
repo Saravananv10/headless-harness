@@ -1,0 +1,21 @@
+{
+  "index": "094",
+  "id": "FOR-04",
+  "title": "Split Purchase Order Threshold Evasion Detector",
+  "seed": "Build a Python script that analyzes purchasing logs for multiple purchase orders issued to the same vendor on the same day just below approval threshold limits.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "forensic_analytics",
+  "workdir": "task_finance_094",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_forensics",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

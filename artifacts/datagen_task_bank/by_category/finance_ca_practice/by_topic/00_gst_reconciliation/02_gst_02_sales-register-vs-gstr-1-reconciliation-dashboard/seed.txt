@@ -1,0 +1,1 @@
+Create a Python Flask/FastAPI web dashboard that loads ERP sales register and GSTR-1 data from CSVs, performs invoice matching, shows match/mismatch statistics with charts, allows filtering by period and supplier, and exports results to Excel.

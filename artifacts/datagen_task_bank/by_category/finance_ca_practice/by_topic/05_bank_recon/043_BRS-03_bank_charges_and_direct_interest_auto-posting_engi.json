@@ -1,0 +1,21 @@
+{
+  "index": "043",
+  "id": "BRS-03",
+  "title": "Bank Charges & Direct Interest Auto-Posting Engine",
+  "seed": "Build a Python script that parses bank statements for unrecorded bank charges, interest credits, and auto-debits, generating ready-to-post month-end journal entries.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "bank_recon",
+  "workdir": "task_finance_043",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "coding_implement",
+    "business_domain": "finance_bookkeeping",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

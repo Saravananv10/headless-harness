@@ -1,0 +1,21 @@
+{
+  "index": "058",
+  "id": "ROC-08",
+  "title": "Section 185/186 Loans & Investment Limit Calculator",
+  "seed": "Build a Python compliance calculator to check total loans, guarantees, and investments against 60% of paid-up capital + reserves (Section 186), flagging special resolution requirements.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "roc_compliance",
+  "workdir": "task_finance_058",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "analysis_report",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_compliance",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

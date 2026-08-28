@@ -1,0 +1,1 @@
+Build a Python calculator that ingests salary Form 16 and deduction proofs, computes tax liability under both Old (Section 115BAC) and New tax regimes, and outputs a recommendation memo.

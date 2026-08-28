@@ -1,0 +1,1 @@
+Build a Python risk profiler that evaluates financial statement risk areas (Revenue Cut-off, Valuation, Related Parties), scores inherent and control risk, and drafts a risk matrix.

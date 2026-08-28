@@ -1,0 +1,21 @@
+{
+  "index": "105",
+  "id": "TRN-05",
+  "title": "Form 16 Tax Decoding & Computation Training Exercise",
+  "seed": "Build a Python exercise generator that creates dummy Form 16 Part A/B datasets and challenges trainees to calculate taxable income and tax liability correctly.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "training_content",
+  "workdir": "task_finance_105",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "cli_tool",
+    "task_family": "coding_implement",
+    "business_domain": "finance_training",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

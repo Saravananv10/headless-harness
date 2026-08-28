@@ -1,0 +1,1 @@
+Create a Python tool that compiles a structured 30-day CA firm onboarding plan, tracks weekly assignment scores, and outputs a trainee readiness evaluation report.

@@ -1,0 +1,1 @@
+Build a Python tool that ingests current and prior year trial balance CSVs, calculates percentage and absolute variances, and highlights accounts exceeding risk thresholds.

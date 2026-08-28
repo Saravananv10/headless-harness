@@ -1,0 +1,11 @@
+{
+  "run_id": "run_explore_stall",
+  "completed": false,
+  "termination_reason": "max_turns",
+  "lifecycle_snapshot": {
+    "implementation_complete_seen": false,
+    "plan_done": false,
+    "plan_agent_seen": false,
+    "verdict_fail_count": 0
+  }
+}

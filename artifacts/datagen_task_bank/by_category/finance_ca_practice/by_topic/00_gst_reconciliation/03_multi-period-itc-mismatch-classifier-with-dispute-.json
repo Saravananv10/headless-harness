@@ -1,0 +1,17 @@
+{
+  "index": "03",
+  "id": "gst_03_multi-period-itc-mismatch-classifier-with-dispute-",
+  "title": "Multi-period ITC mismatch classifier with dispute tracking",
+  "seed": "Build a Python CLI tool that processes multiple filing periods of purchase data vs GSTR-2B, classifies ITC mismatches into eligible, ineligible, pending, and disputed categories with configurable rules, tracks dispute resolution status, and generates period-wise trend reports showing ITC leakage over time.",
+  "source": "original",
+  "category": "gst_reconciliation",
+  "workdir": "task_gst_reconciliation_03",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "cli_tool",
+    "task_family": "analysis_reason",
+    "business_domain": "gst_tax_compliance"
+  }
+}

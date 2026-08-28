@@ -1,0 +1,1 @@
+Build a Python tool that ingests foreign currency bank balances and exchange rate tables, calculates unrealized forex gain/loss per AS 11 / Ind AS 21, and drafts revaluation entries.

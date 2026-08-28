@@ -1,0 +1,1 @@
+Build a Python statistical sampling engine that performs Monetary Unit Sampling on general ledger populations, selecting high-value and random items for substantive testing.

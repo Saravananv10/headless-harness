@@ -1,0 +1,19 @@
+{
+  "index": "032",
+  "id": "3d_032_rock-cluster_vanilla-node",
+  "title": "Low-poly rock cluster (Vanilla Node.js (zero 3D dependencies, hand-written OBJ))",
+  "seed": "Build a script from scratch in Vanilla Node.js (zero 3D dependencies, hand-written OBJ) that procedurally generates: Generate a cluster of 4-8 low-poly rocks, each built by perturbing an icosahedron's vertices along their normals with seeded random noise (breaking the perfect-sphere look), then placed at randomized (seeded) positions, rotations, and scales so they form a natural-looking cluster without overlapping at the cluster center. Save to obj with deterministic seeding, CLI parameterization, and an independent post-save validation step.",
+  "source": "original",
+  "category": "procedural_3d_assets",
+  "workdir": "task_procedural_3d_assets_032",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "javascript",
+    "artifact_type": "3d_asset_generator",
+    "task_family": "coding_implement",
+    "business_domain": "graphics_tooling",
+    "modality": "3d_geometry",
+    "verification_mode": "runtime_pass"
+  }
+}

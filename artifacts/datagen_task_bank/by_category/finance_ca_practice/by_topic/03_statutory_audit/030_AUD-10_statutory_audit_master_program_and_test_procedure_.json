@@ -1,0 +1,21 @@
+{
+  "index": "030",
+  "id": "AUD-10",
+  "title": "Statutory Audit Master Program & Test Procedure Generator",
+  "seed": "Create a Python script that compiles account-wise audit procedures, maps assertions (Completeness, Existence, Accuracy), and outputs an interactive audit execution checklist.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "statutory_audit",
+  "workdir": "task_finance_030",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "spreadsheet_workbook",
+    "task_family": "coding_implement",
+    "business_domain": "finance_audit",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

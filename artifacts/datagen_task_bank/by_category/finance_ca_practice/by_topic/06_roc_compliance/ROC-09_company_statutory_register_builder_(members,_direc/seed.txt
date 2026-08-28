@@ -1,0 +1,1 @@
+Create a Python script that generates digital statutory registers (Form MGT-1 Register of Members, Form MBP-2 Register of Loans/Guarantees) per Companies Act 2013 requirements.

@@ -1,0 +1,1 @@
+Create a Python tool that selects debtor/creditor samples based on balance size and turnover, generates balance confirmation request letters, and tracks response status.

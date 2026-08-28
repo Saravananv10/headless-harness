@@ -1,0 +1,21 @@
+{
+  "index": "020",
+  "id": "ITR-10",
+  "title": "ITR-1 to ITR-4 JSON Payload Builder & Schema Validator",
+  "seed": "Create a Python validation tool that compiles client tax datasets into official CBDT ITR JSON schema format, verifying mandatory field constraints before upload.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "itr_advisory",
+  "workdir": "task_finance_020",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "coding_implement",
+    "business_domain": "finance_tax",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

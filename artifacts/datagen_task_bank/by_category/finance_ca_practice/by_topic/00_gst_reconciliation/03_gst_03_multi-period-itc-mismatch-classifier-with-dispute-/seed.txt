@@ -1,0 +1,1 @@
+Build a Python CLI tool that processes multiple filing periods of purchase data vs GSTR-2B, classifies ITC mismatches into eligible, ineligible, pending, and disputed categories with configurable rules, tracks dispute resolution status, and generates period-wise trend reports showing ITC leakage over time.

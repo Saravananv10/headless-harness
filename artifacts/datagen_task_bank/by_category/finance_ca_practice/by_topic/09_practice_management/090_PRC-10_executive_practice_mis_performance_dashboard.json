@@ -1,0 +1,21 @@
+{
+  "index": "090",
+  "id": "PRC-10",
+  "title": "Executive Practice MIS Performance Dashboard",
+  "seed": "Create a Python dashboard tool using openpyxl/pandas that compiles partner-wise revenue, billing realization ratios, outstanding AR aging, and firm growth metrics.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "practice_management",
+  "workdir": "task_finance_090",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "spreadsheet_workbook",
+    "task_family": "spreadsheet_excel",
+    "business_domain": "finance_practice_mgmt",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

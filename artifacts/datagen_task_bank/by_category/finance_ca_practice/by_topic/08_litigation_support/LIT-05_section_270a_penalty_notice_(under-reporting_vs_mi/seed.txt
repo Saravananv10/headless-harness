@@ -1,0 +1,1 @@
+Create a Python tool to parse Section 270A penalty show-cause notices, analyze whether additions fall under 50% under-reporting or 200% misreporting, and draft legal objections.

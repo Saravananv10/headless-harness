@@ -1,0 +1,21 @@
+{
+  "index": "015",
+  "id": "ITR-05",
+  "title": "House Property Income & Section 24 Interest Deduction Engine",
+  "seed": "Build a Python script that calculates Net Annual Value (NAV) for self-occupied and let-out properties, applies standard 30% deduction, and caps home loan interest deduction under Section 24(b).",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "itr_advisory",
+  "workdir": "task_finance_015",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_tax",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

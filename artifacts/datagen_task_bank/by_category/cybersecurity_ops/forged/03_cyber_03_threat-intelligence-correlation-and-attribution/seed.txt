@@ -1,0 +1,1 @@
+Build a Python tool that ingests internal SIEM alerts and a threat intel feed, extracts and normalizes IOCs (IPs, hashes, domains), cross-references them against internal telemetry, clusters related incidents, maps to MITRE ATT&CK techniques, assigns confidence scores, and drafts a threat intelligence brief.

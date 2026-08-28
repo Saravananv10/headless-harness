@@ -1,0 +1,8 @@
+{
+  "task_id": "LIT-07",
+  "category": "litigation_support",
+  "topic_folder": "08_litigation_support",
+  "complexity": "medium",
+  "source": "prompt_forge.batch_generator",
+  "ui_surface": "static_html_cli"
+}

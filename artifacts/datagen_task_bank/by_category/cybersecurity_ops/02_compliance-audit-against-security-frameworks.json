@@ -1,0 +1,17 @@
+{
+  "index": "02",
+  "id": "cyber_02_compliance-audit-against-security-frameworks",
+  "title": "Compliance Audit Against Security Frameworks",
+  "seed": "Create a Python compliance audit tool that maps assets and security controls against NIST CSF (or ISO 27001), identifies control gaps, scores compliance percentage by category, and generates a gap report with prioritized remediation recommendations and evidence tracking.",
+  "source": "cybersecurity_finance_pdf:1.2",
+  "category": "cybersecurity_ops",
+  "workdir": "task_cybersecurity_ops_02",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "analysis_reason",
+    "business_domain": "cybersecurity"
+  }
+}

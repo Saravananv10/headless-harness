@@ -1,0 +1,8 @@
+{
+  "task_id": "BRS-06",
+  "category": "bank_recon",
+  "topic_folder": "05_bank_recon",
+  "complexity": "medium",
+  "source": "prompt_forge.batch_generator",
+  "ui_surface": "static_html_cli"
+}

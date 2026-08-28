@@ -1,0 +1,1 @@
+Create a Python script using pandas and openpyxl that reads ERP and GSTR CSV files, performs full reconciliation, and produces a formatted Excel workbook with multiple sheets: Summary, Matched Invoices, Mismatches by Type, Supplier-wise Breakdown, and ITC Impact Analysis. Include conditional formatting for highlighting discrepancies.

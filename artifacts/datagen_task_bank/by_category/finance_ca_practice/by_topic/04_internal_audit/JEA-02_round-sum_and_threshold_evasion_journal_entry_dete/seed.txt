@@ -1,0 +1,1 @@
+Create a Python tool to identify round-number journal entries (e.g., exactly 50,000 or 1,000,000) and entries posted just below approval authorization limits.

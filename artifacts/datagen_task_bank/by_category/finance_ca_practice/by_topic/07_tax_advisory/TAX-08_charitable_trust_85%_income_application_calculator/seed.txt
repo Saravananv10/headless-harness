@@ -1,0 +1,1 @@
+Create a Python tool for Section 11 trusts that calculates total income, checks 85% charitable application mandate, computes Form 10 accumulation, and models tax liability.

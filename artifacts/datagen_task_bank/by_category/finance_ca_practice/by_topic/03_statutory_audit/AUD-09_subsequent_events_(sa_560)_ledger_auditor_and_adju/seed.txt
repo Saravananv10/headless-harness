@@ -1,0 +1,1 @@
+Build a Python tool to scan general ledger transactions post-financial-year-end, flag adjusting vs non-adjusting events, and generate SA 560 audit workpapers.

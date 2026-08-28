@@ -1,0 +1,21 @@
+{
+  "index": "075",
+  "id": "LIT-05",
+  "title": "Section 270A Penalty Notice (Under-reporting vs Misreporting) Analyzer",
+  "seed": "Create a Python tool to parse Section 270A penalty show-cause notices, analyze whether additions fall under 50% under-reporting or 200% misreporting, and draft legal objections.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "litigation_support",
+  "workdir": "task_finance_075",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "analysis_report",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_litigation",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

@@ -1,0 +1,1 @@
+Build a Python internal audit script to scan journal entry timestamps, flag entries posted between 10 PM and 5 AM or on weekends, and score user exposure risk.

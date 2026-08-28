@@ -1,0 +1,21 @@
+{
+  "index": "065",
+  "id": "TAX-05",
+  "title": "Director Remuneration vs Dividend Tax Optimizer",
+  "seed": "Build a Python model to determine the optimal split between Director Salary (deductible for co., taxable for individual) and Dividend Distribution to minimize total tax payout.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "tax_advisory",
+  "workdir": "task_finance_065",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_advisory",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

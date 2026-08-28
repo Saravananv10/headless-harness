@@ -1,0 +1,21 @@
+{
+  "index": "008",
+  "id": "TDS-08",
+  "title": "Non-Resident Remittance (Section 195) & Form 15CA/15CB Audit Tool",
+  "seed": "Create a Python tool to process foreign remittance transactions, verify DTAA tax rates, check Form 15CA/15CB filings, and calculate withholding tax exposure.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "tds_reconciliation",
+  "workdir": "task_finance_008",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "analysis_report",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_tax",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

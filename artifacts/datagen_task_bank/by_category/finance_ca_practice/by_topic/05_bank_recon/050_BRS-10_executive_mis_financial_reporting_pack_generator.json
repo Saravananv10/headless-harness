@@ -1,0 +1,21 @@
+{
+  "index": "050",
+  "id": "BRS-10",
+  "title": "Executive MIS Financial Reporting Pack Generator",
+  "seed": "Create a Python script using openpyxl that compiles monthly Trial Balance, P&L, Balance Sheet, and BRS into a formatted MIS Excel workbook with budget variance charts.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "bank_recon",
+  "workdir": "task_finance_050",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "spreadsheet_workbook",
+    "task_family": "spreadsheet_excel",
+    "business_domain": "finance_bookkeeping",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

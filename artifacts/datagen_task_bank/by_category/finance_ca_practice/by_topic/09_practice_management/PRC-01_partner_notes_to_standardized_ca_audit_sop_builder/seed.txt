@@ -1,0 +1,1 @@
+Build a Python tool that converts unstructured partner meeting notes into structured Standard Operating Procedures (SOPs), engagement checklists, and task templates.

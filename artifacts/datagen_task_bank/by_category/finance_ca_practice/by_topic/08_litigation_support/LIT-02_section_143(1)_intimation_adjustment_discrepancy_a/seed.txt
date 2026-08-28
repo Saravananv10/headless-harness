@@ -1,0 +1,1 @@
+Build a Python tool that parses CPC Section 143(1) intimations, compares CPC adjustments against original ITR filings, identifies tax/interest variances, and drafts response grievances.

@@ -1,0 +1,21 @@
+{
+  "index": "109",
+  "id": "TRN-09",
+  "title": "Excel for Auditors (VLOOKUP, Pivot, INDEX-MATCH) Interactive Quiz",
+  "seed": "Build a Python script that generates Excel audit dataset challenges requiring trainees to apply formulas and pivot tables to discover deliberate data errors.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "training_content",
+  "workdir": "task_finance_109",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "spreadsheet_workbook",
+    "task_family": "spreadsheet_excel",
+    "business_domain": "finance_training",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

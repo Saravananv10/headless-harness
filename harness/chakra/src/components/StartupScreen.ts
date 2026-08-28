@@ -1,0 +1,215 @@
+/**
+ * Chakra startup screen — filled-block text logo with sunset gradient.
+ * Called once at CLI startup before the Ink UI renders.
+ *
+ * Addresses: https://github.com/Gitlawb/chakra/issues/55
+ */
+
+import { isLocalProviderUrl } from '../services/api/providerConfig.js'
+import { getLocalOpenAICompatibleProviderLabel } from '../utils/providerDiscovery.js'
+
+declare const MACRO: { VERSION: string; DISPLAY_VERSION?: string }
+
+const ESC = '\x1b['
+const RESET = `${ESC}0m`
+const DIM = `${ESC}2m`
+
+type RGB = [number, number, number]
+const rgb = (r: number, g: number, b: number) => `${ESC}38;2;${r};${g};${b}m`
+
+function lerp(a: RGB, b: RGB, t: number): RGB {
+  return [
+    Math.round(a[0] + (b[0] - a[0]) * t),
+    Math.round(a[1] + (b[1] - a[1]) * t),
+    Math.round(a[2] + (b[2] - a[2]) * t),
+  ]
+}
+
+function gradAt(stops: RGB[], t: number): RGB {
+  const c = Math.max(0, Math.min(1, t))
+  const s = c * (stops.length - 1)
+  const i = Math.floor(s)
+  if (i >= stops.length - 1) return stops[stops.length - 1]
+  return lerp(stops[i], stops[i + 1], s - i)
+}
+
+function paintLine(text: string, stops: RGB[], lineT: number): string {
+  let out = ''
+  for (let i = 0; i < text.length; i++) {
+    const t = text.length > 1 ? lineT * 0.5 + (i / (text.length - 1)) * 0.5 : lineT
+    const [r, g, b] = gradAt(stops, t)
+    out += `${rgb(r, g, b)}${text[i]}`
+  }
+  return out + RESET
+}
+
+// ─── Colors ───────────────────────────────────────────────────────────────────
+
+const SUNSET_GRAD: RGB[] = [
+  [191, 199, 240],
+  [163, 177, 238],
+  [137, 156, 236],
+  [112, 137, 234],
+  [80, 108, 236],
+  [41, 78, 238],
+]
+
+const ACCENT: RGB = [41, 78, 238]
+const CREAM: RGB = [112, 137, 234]
+const DIMCOL: RGB = [163, 177, 238]
+const BORDER: RGB = [80, 108, 236]
+
+// ─── Filled Block Text Logo ───────────────────────────────────────────────────
+
+const LOGO_CHAKRA = [
+  `  ██████╗██╗  ██╗ █████╗ ██╗  ██╗██████╗  █████╗ `,
+  `  ██╔════╝██║  ██║██╔══██╗██║ ██╔╝██╔══██╗██╔══██╗`,
+  `  ██║     ███████║███████║█████╔╝ ██████╔╝███████║`,
+  `  ██║     ██╔══██║██╔══██║██╔═██╗ ██╔══██╗██╔══██║`,
+  `  ╚██████╗██║  ██║██║  ██║██║  ██╗██║  ██║██║  ██║`,
+  `   ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝`,
+]
+
+// ─── Provider detection ───────────────────────────────────────────────────────
+
+function detectProvider(): { name: string; model: string; baseUrl: string; isLocal: boolean } {
+  const useGemini = process.env.CLAUDE_CODE_USE_GEMINI === '1' || process.env.CLAUDE_CODE_USE_GEMINI === 'true'
+  const useGithub = process.env.CLAUDE_CODE_USE_GITHUB === '1' || process.env.CLAUDE_CODE_USE_GITHUB === 'true'
+  const useOpenAI = process.env.CLAUDE_CODE_USE_OPENAI === '1' || process.env.CLAUDE_CODE_USE_OPENAI === 'true'
+  const useSoket = process.env.CLAUDE_CODE_USE_SOKET === '1' || process.env.CLAUDE_CODE_USE_SOKET === 'true'
+  const useFirstParty = process.env.CLAUDE_CODE_USE_FIRST_PARTY === '1' || process.env.CLAUDE_CODE_USE_FIRST_PARTY === 'true'
+
+  if (useGemini) {
+    const model = process.env.GEMINI_MODEL || 'gemini-2.0-flash'
+    const baseUrl = process.env.GEMINI_BASE_URL || 'https://generativelanguage.googleapis.com/v1beta/openai'
+    return { name: 'Google Gemini', model, baseUrl, isLocal: false }
+  }
+
+  if (useGithub) {
+    const model = process.env.OPENAI_MODEL || 'github:copilot'
+    const baseUrl =
+      process.env.OPENAI_BASE_URL || 'https://models.github.ai/inference'
+    return { name: 'GitHub Models', model, baseUrl, isLocal: false }
+  }
+
+  // Soket is default unless explicitly using first-party Anthropic or another provider
+  if (useSoket || (!useFirstParty && !useOpenAI)) {
+    const model = process.env.SOKET_MODEL || process.env.OPENAI_MODEL || 'eka-v1-flash'
+    const baseUrl = process.env.OPENAI_BASE_URL || 'https://api.model.soket.ai/v1'
+    return { name: 'Soket', model, baseUrl, isLocal: false }
+  }
+
+  if (useOpenAI) {
+    const rawModel = process.env.OPENAI_MODEL || 'gpt-4o'
+    const baseUrl = process.env.OPENAI_BASE_URL || 'https://api.openai.com/v1'
+    const isLocal = isLocalProviderUrl(baseUrl)
+    let name = 'OpenAI'
+    if (/deepseek/i.test(baseUrl) || /deepseek/i.test(rawModel))       name = 'DeepSeek'
+    else if (/openrouter/i.test(baseUrl))                             name = 'OpenRouter'
+    else if (/together/i.test(baseUrl))                               name = 'Together AI'
+    else if (/groq/i.test(baseUrl))                                   name = 'Groq'
+    else if (/mistral/i.test(baseUrl) || /mistral/i.test(rawModel))     name = 'Mistral'
+    else if (/azure/i.test(baseUrl))                                  name = 'Azure OpenAI'
+    else if (/llama/i.test(rawModel))                                    name = 'Meta Llama'
+    else if (isLocal)                                                  name = getLocalOpenAICompatibleProviderLabel(baseUrl)
+    
+    // Resolve model alias to actual model name + reasoning effort
+    let displayModel = rawModel
+    const codexAliases: Record<string, { model: string; reasoningEffort?: string }> = {
+      codexplan: { model: 'gpt-5.4', reasoningEffort: 'high' },
+      'gpt-5.4': { model: 'gpt-5.4', reasoningEffort: 'high' },
+      'gpt-5.3-codex': { model: 'gpt-5.3-codex', reasoningEffort: 'high' },
+      'gpt-5.3-codex-spark': { model: 'gpt-5.3-codex-spark' },
+      codexspark: { model: 'gpt-5.3-codex-spark' },
+      'gpt-5.2-codex': { model: 'gpt-5.2-codex', reasoningEffort: 'high' },
+      'gpt-5.1-codex-max': { model: 'gpt-5.1-codex-max', reasoningEffort: 'high' },
+      'gpt-5.1-codex-mini': { model: 'gpt-5.1-codex-mini' },
+      'gpt-5.4-mini': { model: 'gpt-5.4-mini', reasoningEffort: 'medium' },
+      'gpt-5.2': { model: 'gpt-5.2', reasoningEffort: 'medium' },
+    }
+    const alias = rawModel.toLowerCase()
+    if (alias in codexAliases) {
+      const resolved = codexAliases[alias]
+      displayModel = resolved.model
+      if (resolved.reasoningEffort) {
+        displayModel = `${displayModel} (${resolved.reasoningEffort})`
+      }
+    }
+    
+    return { name, model: displayModel, baseUrl, isLocal }
+  }
+
+  // Default: Anthropic
+  const model = process.env.ANTHROPIC_MODEL || process.env.CLAUDE_MODEL || 'claude-sonnet-4-6'
+  return { name: 'Anthropic', model, baseUrl: 'https://api.anthropic.com', isLocal: false }
+}
+
+// ─── Box drawing ──────────────────────────────────────────────────────────────
+
+function boxRow(content: string, width: number, rawLen: number): string {
+  const pad = Math.max(0, width - 2 - rawLen)
+  return `${rgb(...BORDER)}\u2502${RESET}${content}${' '.repeat(pad)}${rgb(...BORDER)}\u2502${RESET}`
+}
+
+// ─── Main ─────────────────────────────────────────────────────────────────────
+
+export function printStartupScreen(): void {
+  // Skip in non-interactive / CI / print mode
+  if (process.env.CI || !process.stdout.isTTY) return
+
+  const p = detectProvider()
+  const W = 62
+  const out: string[] = []
+
+  out.push('')
+
+  // Gradient logo
+  const allLogo = LOGO_CHAKRA
+  const total = allLogo.length
+  for (let i = 0; i < total; i++) {
+    const t = total > 1 ? i / (total - 1) : 0
+    if (allLogo[i] === '') {
+      out.push('')
+    } else {
+      out.push(paintLine(allLogo[i], SUNSET_GRAD, t))
+    }
+  }
+
+  // out.push(`  ${rgb(...ACCENT)}by Soket AI Labs${RESET}`)
+  out.push('')
+
+  // Tagline
+  out.push(`  ${rgb(...ACCENT)}\u2726${RESET} ${rgb(...CREAM)}Coding and Documentation Harness${RESET} ${rgb(...ACCENT)}\u2726${RESET}`)
+  out.push('')
+
+  // Provider info box
+  out.push(`${rgb(...BORDER)}\u2554${'\u2550'.repeat(W - 2)}\u2557${RESET}`)
+
+  const lbl = (k: string, v: string, c: RGB = CREAM): [string, number] => {
+    const padK = k.padEnd(9)
+    return [` ${DIM}${rgb(...DIMCOL)}${padK}${RESET} ${rgb(...c)}${v}${RESET}`, ` ${padK} ${v}`.length]
+  }
+
+  const provC: RGB = p.isLocal ? [130, 175, 130] : ACCENT
+  let [r, l] = lbl('Provider', p.name, provC)
+  out.push(boxRow(r, W, l))
+  ;[r, l] = lbl('Model', p.model)
+  out.push(boxRow(r, W, l))
+  const ep = p.baseUrl.length > 38 ? p.baseUrl.slice(0, 35) + '...' : p.baseUrl
+  ;[r, l] = lbl('Endpoint', ep)
+  out.push(boxRow(r, W, l))
+
+  out.push(`${rgb(...BORDER)}\u2560${'\u2550'.repeat(W - 2)}\u2563${RESET}`)
+
+  const sC: RGB = p.isLocal ? [130, 175, 130] : ACCENT
+  const sL = p.isLocal ? 'local' : 'cloud'
+  const sRow = ` ${rgb(...sC)}\u25cf${RESET} ${DIM}${rgb(...DIMCOL)}${sL}${RESET}    ${DIM}${rgb(...DIMCOL)}Ready \u2014 type ${RESET}${rgb(...ACCENT)}/help${RESET}${DIM}${rgb(...DIMCOL)} to begin${RESET}`
+  const sLen = ` \u25cf ${sL}    Ready \u2014 type /help to begin`.length
+  out.push(boxRow(sRow, W, sLen))
+
+  out.push(`${rgb(...BORDER)}\u255a${'\u2550'.repeat(W - 2)}\u255d${RESET}`)
+  out.push(`  ${DIM}${rgb(...DIMCOL)}chakra ${RESET}${rgb(...ACCENT)}v${MACRO.DISPLAY_VERSION ?? MACRO.VERSION}${RESET}`)
+  out.push('')
+
+  process.stdout.write(out.join('\n') + '\n')
+}

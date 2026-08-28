@@ -1,0 +1,19 @@
+{
+  "index": "033",
+  "id": "3d_033_picket-fence_python-trimesh",
+  "title": "Procedural picket-fence section (Python (trimesh + numpy))",
+  "seed": "Build a script from scratch in Python (trimesh + numpy) that procedurally generates: Build a repeating fence section: two horizontal rail beams connecting a row of evenly spaced vertical picket boards with pointed (pyramid-capped) tops. Picket count, spacing, picket height/width, and rail height must be CLI-configurable. Save to glb, obj with deterministic seeding, CLI parameterization, and an independent post-save validation step.",
+  "source": "original",
+  "category": "procedural_3d_assets",
+  "workdir": "task_procedural_3d_assets_033",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "3d_asset_generator",
+    "task_family": "coding_implement",
+    "business_domain": "graphics_tooling",
+    "modality": "3d_geometry",
+    "verification_mode": "runtime_pass"
+  }
+}

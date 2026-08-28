@@ -1,0 +1,21 @@
+{
+  "index": "010",
+  "id": "TDS-10",
+  "title": "Automated TDS Default Notice Analyzer & Response Drafter",
+  "seed": "Create a Python tool to ingest TRACES demand notices, parse short deduction/short payment lines, recalculate actual tax liability, and draft a response letter.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "tds_reconciliation",
+  "workdir": "task_finance_010",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "analysis_report",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_tax",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "index": "047",
+  "id": "3d_047_brick-wall-panel_babylonjs",
+  "title": "Procedural brick-wall panel (running bond) (Babylon.js (Node.js, headless NullEngine))",
+  "seed": "Build a script from scratch in Babylon.js (Node.js, headless NullEngine) that procedurally generates: Generate a wall panel as a grid of rectangular brick prisms arranged in a running-bond pattern (each row offset by half a brick width from the row above), separated by a configurable mortar gap. Panel width/height (in bricks), brick dimensions, and mortar gap must be CLI-configurable. Save to glb with deterministic seeding, CLI parameterization, and an independent post-save validation step.",
+  "source": "original",
+  "category": "procedural_3d_assets",
+  "workdir": "task_procedural_3d_assets_047",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "javascript",
+    "artifact_type": "3d_asset_generator",
+    "task_family": "coding_implement",
+    "business_domain": "graphics_tooling",
+    "modality": "3d_geometry",
+    "verification_mode": "runtime_pass"
+  }
+}

@@ -1,0 +1,1 @@
+Build a Python exercise generator that creates dummy Form 16 Part A/B datasets and challenges trainees to calculate taxable income and tax liability correctly.

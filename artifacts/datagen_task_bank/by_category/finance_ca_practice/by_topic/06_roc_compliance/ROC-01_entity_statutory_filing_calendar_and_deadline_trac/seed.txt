@@ -1,0 +1,1 @@
+Create a Python compliance tool that maintains entity master data, tracks MCA filing deadlines (AOC-4, MGT-7, DIR-3 KYC, DPT-3), and generates compliance status reports.

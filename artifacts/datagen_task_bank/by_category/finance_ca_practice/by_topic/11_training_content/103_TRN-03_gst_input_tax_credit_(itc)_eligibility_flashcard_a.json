@@ -1,0 +1,21 @@
+{
+  "index": "103",
+  "id": "TRN-03",
+  "title": "GST Input Tax Credit (ITC) Eligibility Flashcard & Quiz Builder",
+  "seed": "Build a Python tool that compiles Section 17(5) blocked credit rules into interactive scenario-based quiz questions with detailed legal explanations.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "training_content",
+  "workdir": "task_finance_103",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "cli_tool",
+    "task_family": "coding_implement",
+    "business_domain": "finance_training",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

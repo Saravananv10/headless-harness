@@ -1,0 +1,1 @@
+Create a Python tool that reads a supplier master CSV, validates GSTIN format (15-character pattern with state code, PAN, entity, and check digit), cross-references against purchase register GSTINs, flags invalid/suspended suppliers, and generates a supplier compliance report with risk scores.

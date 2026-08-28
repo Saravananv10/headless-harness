@@ -1,0 +1,21 @@
+{
+  "index": "084",
+  "id": "PRC-04",
+  "title": "Client Audit Document Checklist & Automated Reminder Engine",
+  "seed": "Create a Python utility that tracks client document delivery against audit information request lists (PBC lists) and drafts pending document reminder emails.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "practice_management",
+  "workdir": "task_finance_084",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "cli_tool",
+    "task_family": "coding_implement",
+    "business_domain": "finance_practice_mgmt",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

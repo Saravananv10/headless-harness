@@ -1,0 +1,21 @@
+{
+  "index": "078",
+  "id": "LIT-08",
+  "title": "Statutory Limitation Period Tracker for Appeals & Notices",
+  "seed": "Build a Python tool that tracks service dates of tax orders, computes statutory deadline dates (30 days for CIT(A), 60 days for ITAT), and flags approaching limitation cut-offs.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "litigation_support",
+  "workdir": "task_finance_078",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "cli_tool",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_litigation",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "index": "086",
+  "id": "PRC-06",
+  "title": "Article Assistant Task Allocation & Daily Work Report Analyzer",
+  "seed": "Create a Python script that parses daily work logs of article trainees, evaluates task completion rates, and generates allocation charts for upcoming deadlines.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "practice_management",
+  "workdir": "task_finance_086",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "spreadsheet_workbook",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_practice_mgmt",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

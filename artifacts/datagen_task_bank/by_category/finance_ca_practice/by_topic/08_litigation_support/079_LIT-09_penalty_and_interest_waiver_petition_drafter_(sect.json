@@ -1,0 +1,21 @@
+{
+  "index": "079",
+  "id": "LIT-09",
+  "title": "Penalty & Interest Waiver Petition Drafter (Section 220(2A) / 273A)",
+  "seed": "Create a Python drafting tool that compiles financial hardship proofs and cooperation records, drafting Section 273A statutory penalty waiver petitions to the Principal Commissioner.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "litigation_support",
+  "workdir": "task_finance_079",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "analysis_report",
+    "task_family": "coding_implement",
+    "business_domain": "finance_litigation",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

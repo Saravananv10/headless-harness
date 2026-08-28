@@ -1,0 +1,8 @@
+{
+  "task_id": "JEA-04",
+  "category": "internal_audit",
+  "topic_folder": "04_internal_audit",
+  "complexity": "medium",
+  "source": "prompt_forge.batch_generator",
+  "ui_surface": "static_html_cli"
+}

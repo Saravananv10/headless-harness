@@ -1,0 +1,1 @@
+Build a Python onboarding tool that evaluates prospective client risk profiles (Anti-Money Laundering checks, promoter background verification) and generates KYC sign-off sheets.

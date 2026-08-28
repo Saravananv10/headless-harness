@@ -1,0 +1,21 @@
+{
+  "index": "001",
+  "id": "TDS-01",
+  "title": "Section-wise Form 26AS vs Books TDS Reconciliation",
+  "seed": "Build a Python tool that ingests Form 26AS and Books TDS registers, matches entries by deductor TAN, section, and quarter, flags mismatches, and outputs a variance report.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "tds_reconciliation",
+  "workdir": "task_finance_001",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "data_wrangling",
+    "business_domain": "finance_tax",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

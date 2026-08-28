@@ -1,0 +1,21 @@
+{
+  "index": "104",
+  "id": "TRN-04",
+  "title": "Journal Entry Posting Simulation & Rectification Simulator",
+  "seed": "Create a Python training simulator that generates unadjusted trial balances, presents accounting error scenarios, and evaluates user rectification journal entries.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "training_content",
+  "workdir": "task_finance_104",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "cli_tool",
+    "task_family": "coding_implement",
+    "business_domain": "finance_training",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

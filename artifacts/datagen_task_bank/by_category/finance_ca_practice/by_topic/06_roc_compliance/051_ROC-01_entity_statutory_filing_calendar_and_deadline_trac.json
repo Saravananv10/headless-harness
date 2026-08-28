@@ -1,0 +1,21 @@
+{
+  "index": "051",
+  "id": "ROC-01",
+  "title": "Entity Statutory Filing Calendar & Deadline Tracker",
+  "seed": "Create a Python compliance tool that maintains entity master data, tracks MCA filing deadlines (AOC-4, MGT-7, DIR-3 KYC, DPT-3), and generates compliance status reports.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "roc_compliance",
+  "workdir": "task_finance_051",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "cli_tool",
+    "task_family": "coding_implement",
+    "business_domain": "finance_compliance",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

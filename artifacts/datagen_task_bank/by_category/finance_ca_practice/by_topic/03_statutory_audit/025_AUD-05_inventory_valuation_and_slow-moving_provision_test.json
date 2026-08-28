@@ -1,0 +1,21 @@
+{
+  "index": "025",
+  "id": "AUD-05",
+  "title": "Inventory Valuation & Slow-Moving Provision Tester (AS 2)",
+  "seed": "Build a Python script that analyzes stock movement logs, calculates inventory turnover days, identifies slow-moving/obsolete stock, and tests NRV provisioning adequacy.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "statutory_audit",
+  "workdir": "task_finance_025",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_audit",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

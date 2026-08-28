@@ -1,0 +1,21 @@
+{
+  "index": "002",
+  "id": "TDS-02",
+  "title": "Challan Deposit Delay Calculator & Section 201(1A) Interest Engine",
+  "seed": "Create a Python script to cross-reference TDS deduction dates against deposit dates in challan register, identify late deposits, and calculate Section 201(1A) interest liability at 1.5% per month.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "tds_reconciliation",
+  "workdir": "task_finance_002",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "cli_tool",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_tax",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

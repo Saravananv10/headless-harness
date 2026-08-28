@@ -1,0 +1,17 @@
+{
+  "index": "05",
+  "id": "cyber_05_network-log-and-intrusion-detection-triage",
+  "title": "Network Log & Intrusion Detection Triage",
+  "seed": "Build a Python triage tool that ingests firewall logs, IDS alerts, and EDR events, compares traffic against a baseline profile, flags anomalous patterns and lateral-movement indicators, ranks alerts by severity and false-positive likelihood, and drafts an analyst-ready triage summary.",
+  "source": "cybersecurity_finance_pdf:1.5",
+  "category": "cybersecurity_ops",
+  "workdir": "task_cybersecurity_ops_05",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "data_wrangling",
+    "business_domain": "cybersecurity"
+  }
+}

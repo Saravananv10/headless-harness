@@ -1,0 +1,1 @@
+Create a Python NLP text processing tool that scans journal entry narration strings for suspicious keywords ('temp', 'plug', 'adjust', 'per director', 'error fix'), outputting an exception list.

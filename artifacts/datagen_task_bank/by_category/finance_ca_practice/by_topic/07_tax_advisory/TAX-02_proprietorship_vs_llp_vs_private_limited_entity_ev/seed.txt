@@ -1,0 +1,1 @@
+Create a Python advisory tool that models net post-tax cash flows for business founders under Proprietorship, LLP, and Pvt Ltd entity structures across income slabs.

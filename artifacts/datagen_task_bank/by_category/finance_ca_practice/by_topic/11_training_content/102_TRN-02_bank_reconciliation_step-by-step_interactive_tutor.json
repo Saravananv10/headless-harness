@@ -1,0 +1,21 @@
+{
+  "index": "102",
+  "id": "TRN-02",
+  "title": "Bank Reconciliation Step-by-Step Interactive Tutorial Builder",
+  "seed": "Create a Python script that generates step-by-step Bank Reconciliation tutorial exercises with sample ledger data and automated answer checking for new staff.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "training_content",
+  "workdir": "task_finance_102",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "cli_tool",
+    "task_family": "coding_implement",
+    "business_domain": "finance_training",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

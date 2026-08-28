@@ -1,0 +1,1 @@
+Create a Python assessment tool that generates company financial statements and tests trainees on calculating and interpreting liquidity, solvency, and profitability ratios.

@@ -1,0 +1,21 @@
+{
+  "index": "046",
+  "id": "BRS-06",
+  "title": "Daily Cash Balance Forecast & Liquidity Tracker",
+  "seed": "Create a Python dashboard tool that combines bank balance data, expected customer collections, and scheduled vendor payments to forecast daily cash liquidity for 30 days.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "bank_recon",
+  "workdir": "task_finance_046",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "spreadsheet_workbook",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_bookkeeping",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "index": "005",
+  "id": "TDS-05",
+  "title": "Section 194Q vs Section 206C(1H) Cross-Reconciler",
+  "seed": "Build a Python reconciliation tool to compare buyer TDS u/s 194Q against seller TCS u/s 206C(1H) for transaction values exceeding INR 50 Lakhs and flag double deduction or missing tax.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "tds_reconciliation",
+  "workdir": "task_finance_005",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "data_wrangling",
+    "business_domain": "finance_tax",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

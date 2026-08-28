@@ -1,0 +1,1 @@
+Create a Python incident response tool that matches an active alert to a relevant playbook template, classifies incident severity, enumerates affected assets from inventory, executes triage/containment checklist steps, builds an incident timeline with evidence log, and generates a post-incident report.

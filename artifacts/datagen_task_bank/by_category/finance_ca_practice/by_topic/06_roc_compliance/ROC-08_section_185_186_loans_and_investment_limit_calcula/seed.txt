@@ -1,0 +1,1 @@
+Build a Python compliance calculator to check total loans, guarantees, and investments against 60% of paid-up capital + reserves (Section 186), flagging special resolution requirements.

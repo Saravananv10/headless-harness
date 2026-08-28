@@ -1,0 +1,21 @@
+{
+  "index": "106",
+  "id": "TRN-06",
+  "title": "Audit Sampling Methodology Practical Case Study Builder",
+  "seed": "Create a Python training tool that simulates general ledger populations and guides article assistants through sample size calculation and evaluation under SA 530.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "training_content",
+  "workdir": "task_finance_106",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "cli_tool",
+    "task_family": "coding_implement",
+    "business_domain": "finance_training",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

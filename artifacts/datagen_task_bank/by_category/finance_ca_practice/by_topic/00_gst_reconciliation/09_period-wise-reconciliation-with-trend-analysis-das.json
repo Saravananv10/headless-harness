@@ -1,0 +1,17 @@
+{
+  "index": "09",
+  "id": "gst_09_period-wise-reconciliation-with-trend-analysis-das",
+  "title": "Period-wise reconciliation with trend analysis dashboard",
+  "seed": "Build a Python web app (Streamlit or Flask) that performs period-wise GST reconciliation across multiple months, shows trend charts for match rates, mismatch categories, ITC amounts, and supplier reliability scores over time. Include period comparison and drill-down views.",
+  "source": "original",
+  "category": "gst_reconciliation",
+  "workdir": "task_gst_reconciliation_09",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "web_fullstack",
+    "task_family": "data_visualization",
+    "business_domain": "gst_tax_compliance"
+  }
+}

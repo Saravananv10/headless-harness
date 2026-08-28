@@ -1,0 +1,19 @@
+{
+  "index": "018",
+  "id": "3d_018_torus-knot_threejs",
+  "title": "Parametric (p,q) torus knot (Three.js (Node.js))",
+  "seed": "Build a script from scratch in Three.js (Node.js) that procedurally generates: Generate a tube mesh following a (p,q) torus knot curve (p and q winding numbers around the torus's two axes), swept with a circular cross-section of a given tube radius along the knot's path. p, q, tube radius, and path segment count must be CLI-configurable. Save to glb with deterministic seeding, CLI parameterization, and an independent post-save validation step.",
+  "source": "original",
+  "category": "procedural_3d_assets",
+  "workdir": "task_procedural_3d_assets_018",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "javascript",
+    "artifact_type": "3d_asset_generator",
+    "task_family": "coding_implement",
+    "business_domain": "graphics_tooling",
+    "modality": "3d_geometry",
+    "verification_mode": "runtime_pass"
+  }
+}

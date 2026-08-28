@@ -1,0 +1,1 @@
+Create a Python tool to ingest TRACES demand notices, parse short deduction/short payment lines, recalculate actual tax liability, and draft a response letter.

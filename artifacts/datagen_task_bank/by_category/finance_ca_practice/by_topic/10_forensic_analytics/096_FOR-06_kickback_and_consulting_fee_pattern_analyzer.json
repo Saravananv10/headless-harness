@@ -1,0 +1,21 @@
+{
+  "index": "096",
+  "id": "FOR-06",
+  "title": "Kickback & Consulting Fee Pattern Analyzer",
+  "seed": "Build a Python tool that flags rounded consulting/advisory fee payments lacking underlying deliverable attachments or approved contract agreements.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "forensic_analytics",
+  "workdir": "task_finance_096",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "analysis_report",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_forensics",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "index": "085",
+  "id": "PRC-05",
+  "title": "Firm Precedent Audit Workpaper Repository Indexer",
+  "seed": "Build a Python tool to scan and index past firm audit reports, tax opinions, and working papers, allowing fast keyword search for new engagement teams.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "practice_management",
+  "workdir": "task_finance_085",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "cli_tool",
+    "task_family": "coding_implement",
+    "business_domain": "finance_practice_mgmt",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

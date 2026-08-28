@@ -1,0 +1,1 @@
+Build a Python tool that compiles Section 17(5) blocked credit rules into interactive scenario-based quiz questions with detailed legal explanations.

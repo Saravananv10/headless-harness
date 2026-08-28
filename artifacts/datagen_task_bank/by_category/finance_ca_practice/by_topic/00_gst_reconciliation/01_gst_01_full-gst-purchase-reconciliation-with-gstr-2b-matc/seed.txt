@@ -1,0 +1,1 @@
+Build a Python tool that ingests an ERP purchase register CSV and a GSTR-2B returns CSV, matches invoices by invoice number and supplier GSTIN, flags mismatches by taxable value, HSN code, and tax rate, classifies each mismatch as eligible/ineligible/pending/disputed, and outputs a supplier-wise reconciliation summary CSV plus a consolidated exception list.

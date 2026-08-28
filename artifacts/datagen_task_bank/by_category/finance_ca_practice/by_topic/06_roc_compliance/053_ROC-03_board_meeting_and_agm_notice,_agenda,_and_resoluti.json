@@ -1,0 +1,21 @@
+{
+  "index": "053",
+  "id": "ROC-03",
+  "title": "Board Meeting & AGM Notice, Agenda, and Resolution Generator",
+  "seed": "Create a Python script that ingests meeting details, drafts statutory Board Meeting notices, agendas, and Board Resolutions (markdown templates) compliant with Secretarial Standards (SS-1).",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "roc_compliance",
+  "workdir": "task_finance_053",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "analysis_report",
+    "task_family": "coding_implement",
+    "business_domain": "finance_compliance",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

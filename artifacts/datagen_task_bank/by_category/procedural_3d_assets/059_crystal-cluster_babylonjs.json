@@ -1,0 +1,19 @@
+{
+  "index": "059",
+  "id": "3d_059_crystal-cluster_babylonjs",
+  "title": "Procedural crystal cluster (Babylon.js (Node.js, headless NullEngine))",
+  "seed": "Build a script from scratch in Babylon.js (Node.js, headless NullEngine) that procedurally generates: Generate a cluster of 5-10 elongated bipyramid ('double cone') crystal shapes, each with a hexagonal or square cross-section, at seeded-random orientations, positions, and lengths, clustered around a common base point without full overlap at the origin. Save to glb with deterministic seeding, CLI parameterization, and an independent post-save validation step.",
+  "source": "original",
+  "category": "procedural_3d_assets",
+  "workdir": "task_procedural_3d_assets_059",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "javascript",
+    "artifact_type": "3d_asset_generator",
+    "task_family": "coding_implement",
+    "business_domain": "graphics_tooling",
+    "modality": "3d_geometry",
+    "verification_mode": "runtime_pass"
+  }
+}

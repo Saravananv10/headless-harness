@@ -1,0 +1,1 @@
+Build a Python documentation generator that produces step-by-step visual guides and troubleshooting checklists for common MCA portal filing errors.

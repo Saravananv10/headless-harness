@@ -1,0 +1,25 @@
+{"seq": 1, "ts": "2026-07-17T10:00:01Z", "type": "agent_spawn", "tool_name": "Agent", "invocation_id": "e1", "arguments": {"subagent_type": "Explore", "prompt": "Explore repository structure"}}
+{"seq": 2, "ts": "2026-07-17T10:00:02Z", "type": "tool_request", "tool_name": "Bash", "arguments": {"command": "ls /tmp/outside"}}
+{"seq": 3, "ts": "2026-07-17T10:00:03Z", "type": "tool_approval", "tool_name": "Bash", "reasoning": "deny Bash outside repository or destructive pattern", "response": "no"}
+{"seq": 4, "ts": "2026-07-17T10:00:04Z", "type": "tool_request", "tool_name": "Bash", "arguments": {"command": "ls /tmp/outside"}}
+{"seq": 5, "ts": "2026-07-17T10:00:05Z", "type": "tool_approval", "tool_name": "Bash", "reasoning": "deny Bash outside repository or destructive pattern", "response": "no"}
+{"seq": 6, "ts": "2026-07-17T10:00:06Z", "type": "tool_request", "tool_name": "Bash", "arguments": {"command": "ls /tmp/outside"}}
+{"seq": 7, "ts": "2026-07-17T10:00:07Z", "type": "tool_approval", "tool_name": "Bash", "reasoning": "deny Bash outside repository or destructive pattern", "response": "no"}
+{"seq": 8, "ts": "2026-07-17T10:00:08Z", "type": "tool_request", "tool_name": "Bash", "arguments": {"command": "ls /tmp/outside"}}
+{"seq": 9, "ts": "2026-07-17T10:00:09Z", "type": "tool_approval", "tool_name": "Bash", "reasoning": "deny Bash outside repository or destructive pattern", "response": "no"}
+{"seq": 10, "ts": "2026-07-17T10:00:10Z", "type": "tool_request", "tool_name": "Bash", "arguments": {"command": "ls /tmp/outside"}}
+{"seq": 11, "ts": "2026-07-17T10:00:11Z", "type": "tool_approval", "tool_name": "Bash", "reasoning": "deny Bash outside repository or destructive pattern", "response": "no"}
+{"seq": 12, "ts": "2026-07-17T10:00:12Z", "type": "tool_request", "tool_name": "Bash", "arguments": {"command": "ls /tmp/outside"}}
+{"seq": 13, "ts": "2026-07-17T10:00:13Z", "type": "tool_approval", "tool_name": "Bash", "reasoning": "deny Bash outside repository or destructive pattern", "response": "no"}
+{"seq": 14, "ts": "2026-07-17T10:00:14Z", "type": "tool_request", "tool_name": "Bash", "arguments": {"command": "ls /tmp/outside"}}
+{"seq": 15, "ts": "2026-07-17T10:00:15Z", "type": "tool_approval", "tool_name": "Bash", "reasoning": "deny Bash outside repository or destructive pattern", "response": "no"}
+{"seq": 16, "ts": "2026-07-17T10:00:16Z", "type": "tool_request", "tool_name": "Bash", "arguments": {"command": "ls /tmp/outside"}}
+{"seq": 17, "ts": "2026-07-17T10:00:17Z", "type": "tool_approval", "tool_name": "Bash", "reasoning": "deny Bash outside repository or destructive pattern", "response": "no"}
+{"seq": 18, "ts": "2026-07-17T10:00:18Z", "type": "controller_decision", "decision": "resume", "kind": "neutral", "reason": "No lifecycle gap detected \u2014 soft continue"}
+{"seq": 19, "ts": "2026-07-17T10:00:19Z", "type": "controller_decision", "decision": "resume", "kind": "neutral", "reason": "No lifecycle gap detected \u2014 soft continue"}
+{"seq": 20, "ts": "2026-07-17T10:00:20Z", "type": "controller_decision", "decision": "resume", "kind": "neutral", "reason": "No lifecycle gap detected \u2014 soft continue"}
+{"seq": 21, "ts": "2026-07-17T10:00:21Z", "type": "controller_decision", "decision": "resume", "kind": "neutral", "reason": "No lifecycle gap detected \u2014 soft continue"}
+{"seq": 22, "ts": "2026-07-17T10:00:22Z", "type": "controller_decision", "decision": "resume", "kind": "neutral", "reason": "No lifecycle gap detected \u2014 soft continue"}
+{"seq": 23, "ts": "2026-07-17T10:00:23Z", "type": "controller_decision", "decision": "resume", "kind": "neutral", "reason": "No lifecycle gap detected \u2014 soft continue"}
+{"seq": 24, "ts": "2026-07-17T10:00:24Z", "type": "controller_decision", "decision": "terminate", "reason": "max_turns", "completed": false}
+{"seq": 25, "ts": "2026-07-17T10:00:25Z", "type": "run_completed", "completed": false, "termination_reason": "max_turns"}

@@ -1,0 +1,20 @@
+{
+  "index": "01",
+  "id": "gst_01_full-gst-purchase-reconciliation-with-gstr-2b-matc",
+  "title": "Full GST purchase reconciliation with GSTR-2B matching",
+  "seed": "Build a Python tool that ingests an ERP purchase register CSV and a GSTR-2B returns CSV, matches invoices by invoice number and supplier GSTIN, flags mismatches by taxable value, HSN code, and tax rate, classifies each mismatch as eligible/ineligible/pending/disputed, and outputs a supplier-wise reconciliation summary CSV plus a consolidated exception list.",
+  "source": "original",
+  "category": "gst_reconciliation",
+  "workdir": "task_gst_reconciliation_01",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "data_wrangling",
+    "business_domain": "gst_tax_compliance",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

@@ -1,0 +1,4 @@
+{"seq": 1, "ts": "2026-07-17T10:00:01Z", "type": "token_usage", "prompt_tokens": 100, "completion_tokens": 50}
+{"seq": 2, "ts": "2026-07-17T10:00:02Z", "type": "controller_decision", "decision": "resume", "kind": "neutral", "reason": "No lifecycle gap detected \u2014 soft continue"}
+{"seq": 3, "ts": "2026-07-17T10:00:03Z", "type": "controller_decision", "decision": "terminate", "reason": "max_turns", "completed": false}
+{"seq": 4, "ts": "2026-07-17T10:00:04Z", "type": "run_completed", "completed": false, "termination_reason": "max_turns"}

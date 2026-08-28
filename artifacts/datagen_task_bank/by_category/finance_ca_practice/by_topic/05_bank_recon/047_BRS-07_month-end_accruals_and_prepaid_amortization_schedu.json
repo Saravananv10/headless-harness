@@ -1,0 +1,21 @@
+{
+  "index": "047",
+  "id": "BRS-07",
+  "title": "Month-End Accruals & Prepaid Amortization Schedule Builder",
+  "seed": "Build a Python tool to process recurring expense contracts, build monthly prepaid amortization schedules, calculate accrued expenses, and post month-end close journals.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "bank_recon",
+  "workdir": "task_finance_047",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "data_wrangling",
+    "business_domain": "finance_bookkeeping",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

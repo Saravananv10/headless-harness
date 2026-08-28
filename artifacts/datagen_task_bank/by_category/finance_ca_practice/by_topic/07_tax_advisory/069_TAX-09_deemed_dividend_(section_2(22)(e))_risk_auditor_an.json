@@ -1,0 +1,21 @@
+{
+  "index": "069",
+  "id": "TAX-09",
+  "title": "Deemed Dividend (Section 2(22)(e)) Risk Auditor & Restructuring Memo",
+  "seed": "Build a Python tool to scan shareholder loan accounts in closely-held companies, identify accumulated profits, quantify Section 2(22)(e) deemed dividend exposure, and draft restructuring advice.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "tax_advisory",
+  "workdir": "task_finance_069",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "analysis_report",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_advisory",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

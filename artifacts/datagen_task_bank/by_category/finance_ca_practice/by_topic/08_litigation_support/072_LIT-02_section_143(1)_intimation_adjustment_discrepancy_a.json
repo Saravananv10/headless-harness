@@ -1,0 +1,21 @@
+{
+  "index": "072",
+  "id": "LIT-02",
+  "title": "Section 143(1) Intimation Adjustment Discrepancy Analyzer",
+  "seed": "Build a Python tool that parses CPC Section 143(1) intimations, compares CPC adjustments against original ITR filings, identifies tax/interest variances, and drafts response grievances.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "litigation_support",
+  "workdir": "task_finance_072",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "cli_tool",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_litigation",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

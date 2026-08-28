@@ -1,0 +1,21 @@
+{
+  "index": "059",
+  "id": "ROC-09",
+  "title": "Company Statutory Register Builder (Members, Directors, Contracts)",
+  "seed": "Create a Python script that generates digital statutory registers (Form MGT-1 Register of Members, Form MBP-2 Register of Loans/Guarantees) per Companies Act 2013 requirements.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "roc_compliance",
+  "workdir": "task_finance_059",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "spreadsheet_workbook",
+    "task_family": "coding_implement",
+    "business_domain": "finance_compliance",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

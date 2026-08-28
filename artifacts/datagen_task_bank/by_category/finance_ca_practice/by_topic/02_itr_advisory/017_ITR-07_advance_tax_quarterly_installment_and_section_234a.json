@@ -1,0 +1,21 @@
+{
+  "index": "017",
+  "id": "ITR-07",
+  "title": "Advance Tax Quarterly Installment & Section 234A/B/C Interest Auditor",
+  "seed": "Build a Python tool to calculate quarterly advance tax liability (15%, 45%, 75%, 100%), compare against actual tax paid, and compute Section 234B and 234C interest penalties.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "itr_advisory",
+  "workdir": "task_finance_017",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_tax",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

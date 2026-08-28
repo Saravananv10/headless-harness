@@ -1,0 +1,21 @@
+{
+  "index": "100",
+  "id": "FOR-10",
+  "title": "Forensic Investigation Findings Report Builder with Chain of Custody",
+  "seed": "Build a Python tool that compiles forensic audit exception logs into a structured forensic investigation report with quantified financial exposure and evidence logs.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "forensic_analytics",
+  "workdir": "task_finance_100",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "analysis_report",
+    "task_family": "coding_implement",
+    "business_domain": "finance_forensics",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

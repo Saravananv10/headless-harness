@@ -1,0 +1,21 @@
+{
+  "index": "040",
+  "id": "JEA-10",
+  "title": "Internal Audit Exception Tracker & Remediation Management Dashboard",
+  "seed": "Create a Python tool that compiles audit findings into a structured remediation tracker, calculates target closure dates, and outputs an audit committee summary dashboard.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "internal_audit",
+  "workdir": "task_finance_040",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "spreadsheet_workbook",
+    "task_family": "coding_implement",
+    "business_domain": "finance_audit",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

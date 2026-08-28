@@ -1,0 +1,1 @@
+Build a Python tool to calculate quarterly advance tax liability (15%, 45%, 75%, 100%), compare against actual tax paid, and compute Section 234B and 234C interest penalties.

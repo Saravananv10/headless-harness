@@ -1,0 +1,21 @@
+{
+  "index": "108",
+  "id": "TRN-08",
+  "title": "Financial Ratio Analysis & Interpretation Assessment Builder",
+  "seed": "Create a Python assessment tool that generates company financial statements and tests trainees on calculating and interpreting liquidity, solvency, and profitability ratios.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "training_content",
+  "workdir": "task_finance_108",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "python",
+    "artifact_type": "cli_tool",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_training",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

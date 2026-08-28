@@ -1,0 +1,1 @@
+Create a Python tool that scans uncleared cheques in bank reconciliations, identifies items outstanding over 90 days, and drafts write-back adjustment journal entries.

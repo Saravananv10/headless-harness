@@ -1,0 +1,21 @@
+{
+  "index": "074",
+  "id": "LIT-04",
+  "title": "ITAT Appeal Petition & Stay of Demand Application Drafter",
+  "seed": "Build a Python legal drafting tool to format ITAT appeal memos, prepare stay of demand applications demonstrating financial hardship, and draft stay petition affidavits.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "litigation_support",
+  "workdir": "task_finance_074",
+  "dimensions_hint": {
+    "complexity": "hard",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "analysis_report",
+    "task_family": "coding_implement",
+    "business_domain": "finance_litigation",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "task_id": "TRN-08",
+  "category": "training_content",
+  "topic_folder": "11_training_content",
+  "complexity": "medium",
+  "source": "prompt_forge.batch_generator",
+  "ui_surface": "static_html_cli"
+}

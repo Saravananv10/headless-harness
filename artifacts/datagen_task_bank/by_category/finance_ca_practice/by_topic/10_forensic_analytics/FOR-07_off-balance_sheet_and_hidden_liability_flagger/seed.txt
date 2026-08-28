@@ -1,0 +1,1 @@
+Create a Python tool to scan journal entries and contract logs for unrecorded corporate guarantees, letter of comfort liabilities, and off-balance sheet commitments.

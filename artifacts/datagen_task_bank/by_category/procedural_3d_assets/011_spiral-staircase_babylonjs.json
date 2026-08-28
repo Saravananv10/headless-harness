@@ -1,0 +1,19 @@
+{
+  "index": "011",
+  "id": "3d_011_spiral-staircase_babylonjs",
+  "title": "Parametric spiral staircase (Babylon.js (Node.js, headless NullEngine))",
+  "seed": "Build a script from scratch in Babylon.js (Node.js, headless NullEngine) that procedurally generates: Generate a helical staircase: rectangular step-tread boxes distributed along a helix around a central vertical axis, each step rotated incrementally around the axis and raised incrementally in height. Number of steps, helix radius, rise-per-step, and total rotation must be CLI-configurable. Save to glb with deterministic seeding, CLI parameterization, and an independent post-save validation step.",
+  "source": "original",
+  "category": "procedural_3d_assets",
+  "workdir": "task_procedural_3d_assets_011",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "medium",
+    "language_runtime": "javascript",
+    "artifact_type": "3d_asset_generator",
+    "task_family": "coding_implement",
+    "business_domain": "graphics_tooling",
+    "modality": "3d_geometry",
+    "verification_mode": "runtime_pass"
+  }
+}

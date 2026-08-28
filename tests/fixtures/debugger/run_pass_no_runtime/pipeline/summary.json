@@ -1,0 +1,11 @@
+{
+  "run_id": "run_pass_no_runtime",
+  "completed": false,
+  "termination_reason": "max_turns",
+  "lifecycle_snapshot": {
+    "implementation_complete_seen": true,
+    "plan_done": true,
+    "last_pass_rejection": "missing RUNTIME_CHECK: PASS",
+    "last_raw_verdict": "PASS"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "index": "032",
+  "id": "JEA-02",
+  "title": "Round-Sum & Threshold Evasion Journal Entry Detector",
+  "seed": "Create a Python tool to identify round-number journal entries (e.g., exactly 50,000 or 1,000,000) and entries posted just below approval authorization limits.",
+  "source": "original",
+  "category": "finance_ca_practice",
+  "topic": "internal_audit",
+  "workdir": "task_finance_032",
+  "dimensions_hint": {
+    "complexity": "medium",
+    "value": "hard",
+    "language_runtime": "python",
+    "artifact_type": "data_pipeline",
+    "task_family": "analysis_reason",
+    "business_domain": "finance_audit",
+    "modality": "tabular_excel",
+    "verification_mode": "runtime_pass",
+    "agent_topology": "subagent_spawns"
+  }
+}
